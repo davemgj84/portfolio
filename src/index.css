@@ -1,5 +1,9 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 body {
