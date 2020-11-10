@@ -3,10 +3,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #5d4854;
+  background-color: #1e3857;
 
   .logo {
-    color: rgb(226, 226, 226);
+    color: #d9dcdf;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 30px;
@@ -16,10 +16,11 @@ nav {
     display: flex;
     width: 33%;
     justify-content: space-around;
+    z-index: 1;
   }
 
   .nav-links a {
-    color: rgb(226, 226, 226);
+    color: #d9dcdf;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 18px;
@@ -34,7 +35,7 @@ nav {
     width: 25px;
     height: 3px;
     margin: 5px;
-    background-color: rgb(226, 226, 226);
+    background-color: #d9dcdf;
     transition: all 0.3s ease;
   }
 
@@ -50,7 +51,7 @@ nav {
       right: 0;
       height: 92vh;
       top: 8vh;
-      background-color: #5d4854;
+      background-color: #1e3857;
       display: flex;
       flex-direction: column;
       align-items: center;

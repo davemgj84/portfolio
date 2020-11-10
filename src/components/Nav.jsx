@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import navSlide from "../helpers/navSlide";
 import "../styles/Nav.scss";
 
@@ -12,16 +12,16 @@ const Nav = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <a href="#">Home</a>
+            <Link to={"/home"}>Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <Link to={"/projects"}>Projects</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to={"/contact"}>Contact</Link>
           </li>
         </ul>
         <div onClick={() => navSlide()} className="burger">
