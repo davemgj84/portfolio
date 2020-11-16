@@ -4,11 +4,7 @@ import "../styles/Home.scss";
 const Home = () => {
   return (
     <>
-      <div className="landing-block">
-        <div className="landing">
-          <p>THIS IS THE HOME PAGE</p>
-        </div>
-      </div>
+      <div>THIS IS THE HOME PAGE</div>
     </>
   );
 };
