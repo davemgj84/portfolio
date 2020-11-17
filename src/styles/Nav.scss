@@ -16,7 +16,6 @@ nav {
     display: flex;
     width: 33%;
     justify-content: space-around;
-    z-index: 1;
   }
 
   .nav-links a {
@@ -103,9 +102,3 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 }
-
-// @media screen and (max-width: 768px) {
-//   body {
-//     overflow-x: hidden;
-//   }
-// }

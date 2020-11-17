@@ -14,8 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
 
+  overflow-x: hidden;
   background-color: #e2ded0;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }

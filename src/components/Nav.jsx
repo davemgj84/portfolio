@@ -4,9 +4,6 @@ import navSlide from "../helpers/navSlide";
 import "../styles/Nav.scss";
 
 const Nav = () => {
-  // look into useRef
-  // const slider = useRef();
-
   return (
     <>
       <nav>
