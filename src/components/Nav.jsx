@@ -2,23 +2,12 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import openNav from "../helpers/openNav";
 import closeNav from "../helpers/closeNav";
+import cursorAnimation from "../helpers/cursorAnimation";
 import "../styles/Nav.scss";
 
 const Nav = () => {
   useEffect(() => {
-    let cursor = true;
-    const speed = 500;
-    const interval = setInterval(() => {
-      if (cursor) {
-        document.getElementById("cursor").style.opacity = 0;
-        cursor = false;
-      } else {
-        document.getElementById("cursor").style.opacity = 1;
-        cursor = true;
-      }
-    }, speed);
-
-    return () => clearInterval(interval);
+    cursorAnimation();
   }, []);
 
   return (
@@ -27,7 +16,8 @@ const Nav = () => {
         <div className="logo">
           <h4>
             <Link to={"/about"}>
-              &lt; D<span>avid</span> J<span>ardine</span> / &gt;{" "}
+              &lt; D<span className="shorten-name">avid</span> J
+              <span className="shorten-name">ardine</span> / &gt;{" "}
               <span id="cursor">|</span>
             </Link>
           </h4>
