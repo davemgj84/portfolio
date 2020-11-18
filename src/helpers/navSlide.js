@@ -5,6 +5,7 @@ const navSlide = () => {
 
   burger.classList.toggle("toggle");
   nav.classList.toggle("nav-active");
+  // console.log(nav.className);
   navLinks.forEach((link, index) => {
     if (link.style.animation) {
       link.style.animation = "";
