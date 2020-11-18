@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import navSlide from "../helpers/navSlide";
+import openNav from "../helpers/openNav";
+import closeNav from "../helpers/closeNav";
 import "../styles/Nav.scss";
 
 const Nav = () => {
@@ -10,25 +11,33 @@ const Nav = () => {
         <div className="logo">
           <h4>
             <Link to={"/about"}>
-              <i class="fas fa-code"></i> David Jardine
+              <i className="fas fa-code"></i> D<span>avid</span> Jardine
             </Link>
           </h4>
         </div>
-        <ul className="nav-links">
+        <ul id="menu" className="nav-links">
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link onClick={() => closeNav()} to={"/about"}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to={"/skills"}>Skills</Link>
+            <Link onClick={() => closeNav()} to={"/skills"}>
+              Skills
+            </Link>
           </li>
           <li>
-            <Link to={"/projects"}>Projects</Link>
+            <Link onClick={() => closeNav()} to={"/projects"}>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link onClick={() => closeNav()} to={"/contact"}>
+              Contact
+            </Link>
           </li>
         </ul>
-        <div onClick={() => navSlide()} className="burger">
+        <div onClick={() => openNav()} className="burger">
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>

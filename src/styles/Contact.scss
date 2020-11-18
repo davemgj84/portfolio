@@ -1,29 +1,33 @@
 .contacts {
   height: 92vh;
+  top: 8vh;
+  padding-top: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #4a5f78;
+  color: #59666d;
   font-size: 24px;
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeInSlide 0.5s;
 
   a {
     color: inherit;
   }
 
   h1 {
-    color: #1e3857;
+    color: #304149;
     font-size: 56px;
     margin-bottom: 2rem;
   }
 
   h3 {
     padding: 2rem;
+    transition: ease-in-out 0.2s;
   }
 
   h3:hover {
-    color: #1e3857;
+    color: #44545b;
+    text-shadow: 2px 2px #b4b1a6;
   }
 
   .phone {
@@ -62,7 +66,7 @@
     padding-right: 1rem;
   }
 
-  @keyframes fadeIn {
+  @keyframes fadeInSlide {
     from {
       opacity: 0;
       transform: translateX(30px);
@@ -71,5 +75,23 @@
       opacity: 1;
       transform: translateX(0px);
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    font-size: 18px;
+  }
+  .contacts h1 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contacts {
+    font-size: 15px;
+  }
+  .contacts h1 {
+    font-size: 35px;
   }
 }

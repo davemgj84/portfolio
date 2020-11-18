@@ -1,20 +1,19 @@
-const navSlide = () => {
+const openNav = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
 
   burger.classList.toggle("toggle");
   nav.classList.toggle("nav-active");
-  // console.log(nav.className);
   navLinks.forEach((link, index) => {
     if (link.style.animation) {
       link.style.animation = "";
     } else {
       link.style.animation = `navLinkFade 0.5s ease forwards ${
-        index / 7 + 0.5
+        index / 7 + 0.1
       }s`;
     }
   });
 };
 
-export default navSlide;
+export default openNav;
