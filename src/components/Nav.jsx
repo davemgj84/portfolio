@@ -27,7 +27,7 @@ const Nav = () => {
         <div className="logo">
           <h4>
             <Link to={"/about"}>
-              <i className="fas fa-code"></i> D<span>avid</span> Jardine{" "}
+              &lt; D<span>avid</span> J<span>ardine</span> / &gt;{" "}
               <span id="cursor">|</span>
             </Link>
           </h4>
