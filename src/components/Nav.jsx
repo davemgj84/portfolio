@@ -8,14 +8,18 @@ const Nav = () => {
     <>
       <nav>
         <div className="logo">
-          <h4>DJ</h4>
+          <h4>
+            <Link to={"/about"}>
+              <i class="fas fa-code"></i> David Jardine
+            </Link>
+          </h4>
         </div>
         <ul className="nav-links">
           <li>
-            <Link to={"/home"}>Home</Link>
+            <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link to={"/skills"}>Skills</Link>
           </li>
           <li>
             <Link to={"/projects"}>Projects</Link>

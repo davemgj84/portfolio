@@ -10,12 +10,21 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 30px;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .logo:hover {
+    color: #78879a;
   }
 
   .nav-links {
     display: flex;
     width: 33%;
     justify-content: space-around;
+    z-index: 1;
   }
 
   .nav-links a {
@@ -48,8 +57,11 @@ nav {
   }
 
   @media screen and (max-width: 1024px) {
+    .logo {
+      font-size: 21px;
+    }
     .nav-links {
-      width: 60%;
+      width: 50%;
     }
   }
 

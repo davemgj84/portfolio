@@ -1,0 +1,75 @@
+.contacts {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4a5f78;
+  font-size: 24px;
+  animation: fadeIn 0.5s ease forwards;
+
+  a {
+    color: inherit;
+  }
+
+  h1 {
+    color: #1e3857;
+    font-size: 56px;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    padding: 2rem;
+  }
+
+  h3:hover {
+    color: #1e3857;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-mobile-alt {
+    padding-right: 1rem;
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-envelope {
+    padding-right: 1rem;
+  }
+
+  .github {
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-github {
+    padding-right: 1rem;
+  }
+
+  .linked-in {
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-linkedin {
+    padding-right: 1rem;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+}
