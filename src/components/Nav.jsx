@@ -1,17 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import openNav from "../helpers/openNav";
 import closeNav from "../helpers/closeNav";
 import "../styles/Nav.scss";
 
 const Nav = () => {
+  useEffect(() => {
+    let cursor = true;
+    const speed = 500;
+    const interval = setInterval(() => {
+      if (cursor) {
+        document.getElementById("cursor").style.opacity = 0;
+        cursor = false;
+      } else {
+        document.getElementById("cursor").style.opacity = 1;
+        cursor = true;
+      }
+    }, speed);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <nav>
         <div className="logo">
           <h4>
             <Link to={"/about"}>
-              <i className="fas fa-code"></i> D<span>avid</span> Jardine
+              <i className="fas fa-code"></i> D<span>avid</span> Jardine{" "}
+              <span id="cursor">|</span>
             </Link>
           </h4>
         </div>

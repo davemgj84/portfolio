@@ -19,8 +19,16 @@ nav {
     }
   }
 
+  #cursor {
+    color: #d9dcdf;
+    font-size: 30px;
+  }
+
   .logo:hover {
     color: #78879a;
+    #cursor {
+      color: #78879a;
+    }
   }
 
   .nav-links {
