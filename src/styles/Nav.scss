@@ -13,6 +13,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 30px;
+    transition: ease-in-out 0.3s;
 
     a {
       color: inherit;
@@ -36,6 +37,7 @@ nav {
     width: 33%;
     justify-content: space-around;
     z-index: 1;
+    transition: ease-in-out 0.3s;
   }
 
   .nav-links a {

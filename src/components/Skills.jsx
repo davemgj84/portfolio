@@ -4,7 +4,7 @@ import "../styles/Skills.scss";
 const Skills = () => {
   return (
     <>
-      <h1>MY SKILLS!</h1>
+      <section className="skills">HELLO</section>
     </>
   );
 };

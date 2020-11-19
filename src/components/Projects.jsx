@@ -43,7 +43,6 @@ const Projects = () => {
                 <img className="thumbnail" src={sapphire} alt="Sapphire" />
               </a>
             </div>
-
             <div className="divider"></div>
             <div className="project-block">
               <div className="name-desc">

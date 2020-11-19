@@ -11,7 +11,9 @@
     max-width: 500px;
     width: 100%;
     border-radius: 500px;
+    margin-top: 3rem;
     animation: fadeInSlide 0.5s;
+    transition: ease-in-out 0.3s;
   }
 
   .bio {
@@ -23,6 +25,7 @@
     align-items: center;
     margin: 1rem;
     animation: fadeIn 0.8s;
+    transition: ease-in-out 0.3s;
 
     h1 {
       font-size: 66px;
@@ -30,12 +33,15 @@
       color: #304149;
       text-transform: uppercase;
       padding-bottom: 1rem;
+      transition: ease-in-out 0.3s;
     }
 
     .bio-text {
       max-width: 400px;
+      // text-align: center;
       color: #304149;
-      font-size: 24px;
+      font-size: 26px;
+      transition: ease-in-out 0.3s;
     }
   }
 
