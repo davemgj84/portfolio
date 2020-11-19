@@ -1,0 +1,137 @@
+.projects {
+  width: 100%;
+  height: 92vh;
+  padding-top: 8vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInSlide 0.5s;
+
+  h1 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+    top: 8vh;
+    font-size: 56px;
+    color: #304149;
+    padding-top: 1rem;
+    background-color: #e2ded0;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .container {
+    height: 60%;
+    width: 100%;
+  }
+
+  h2 {
+    color: #59666d;
+    font-size: 42px;
+    margin-bottom: 2rem;
+    transition: ease-in-out 0.2s;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  h2:hover {
+    color: #44545b;
+    text-shadow: 2px 2px 1px #b4b1a6;
+  }
+
+  .divider {
+    width: 80%;
+    height: 1px;
+    margin: 2rem;
+    background-color: #59666d;
+    display: none;
+  }
+
+  .name-desc {
+    padding: 1rem;
+    // padding-left: 3rem;
+  }
+
+  .project-block {
+    display: flex;
+    align-items: center;
+  }
+
+  .top-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+  }
+
+  .bottom-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  li {
+    max-width: 420px;
+    color: #304149;
+    font-size: 24px;
+    padding-bottom: 1rem;
+  }
+
+  .thumbnail {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    margin: 1rem;
+  }
+
+  .thumbnail:hover {
+    opacity: 0.8;
+  }
+
+  @keyframes fadeInSlide {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .project-block,
+  .top-two,
+  .bottom-two {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects .name-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects li {
+    max-width: 400px;
+  }
+  // .thumbnail {
+  //   display: none;
+  // }
+  .projects .top-two {
+    padding-bottom: 0;
+  }
+  .projects .divider {
+    display: block;
+  }
+}

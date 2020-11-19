@@ -22,7 +22,7 @@ const Nav = () => {
             </Link>
           </h4>
         </div>
-        <ul id="menu" className="nav-links">
+        <ul className="nav-links">
           <li>
             <Link onClick={() => closeNav()} to={"/about"}>
               About
