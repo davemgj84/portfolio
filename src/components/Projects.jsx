@@ -13,7 +13,6 @@ const Projects = () => {
         <div className="container">
           <section className="top-two">
             <div className="divider"></div>
-
             <div className="project-block">
               <div className="name-desc">
                 <h2>

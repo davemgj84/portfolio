@@ -16,10 +16,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* overflow-x: hidden; */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
   background-color: #e2ded0;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   background-attachment: fixed;
   background-position: 0 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {
