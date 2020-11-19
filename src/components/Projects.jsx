@@ -10,7 +10,7 @@ const Projects = () => {
     <>
       <section className="projects">
         <h1>Projects</h1>
-        <div className="container">
+        <div className="projects-container">
           <section className="top-two">
             <div className="divider"></div>
             <div className="project-block">
