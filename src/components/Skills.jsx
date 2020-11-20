@@ -27,8 +27,9 @@ const Skills = () => {
             <p>Art History, Design, Painting, Sculpture</p>
           </div>
         </section>
+        <div className="h-divider-responsive"></div>
         <div className="v-divider"></div>
-        <div className="education-experience">
+        <section className="education-experience">
           <section className="education">
             <h1>Education</h1>
             <div>
@@ -50,14 +51,13 @@ const Skills = () => {
                 <h4>The Soma Gallery | April 2014 - March 2020</h4>
                 <p>Sales of art, literature and antiquities</p>
                 <p>Training and supervision of staff</p>
-                <p>Managing Inventory</p>
-                <p>Handling payroll, opening & closing cash deposits</p>
+                <p>Managing inventory & payroll</p>
               </div>
               <div className="job">
                 <h3>Volunteer</h3>
                 <h4>Greater Vancouver Interactive Arts Society</h4>
                 <p>Grants Committee Member - August 2014 - August 2016</p>
-                <p>Review Grant proposals and applications</p>
+                <p>Review grant proposals and applications</p>
                 <p>
                   Working closely with committee members to award art grants
                 </p>
@@ -68,7 +68,7 @@ const Skills = () => {
               </div>
             </div>
           </section>
-        </div>
+        </section>
       </div>
     </>
   );

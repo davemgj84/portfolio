@@ -12,7 +12,7 @@ const About = () => {
         <div className="bio">
           <h1>David Jardine</h1>
           <p className="bio-text">
-            I am a Full stack junior web developer with a background as an
+            I am a Full Stack Junior Web Developer with a background as an
             artist. I offer many perspectives and modes of thinking with my
             diverse background. I have always loved creating and building
             interactive projects and collaborating with a team. I enjoy critical

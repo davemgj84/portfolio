@@ -22,6 +22,15 @@
     align-self: center;
   }
 
+  .h-divider-responsive {
+    width: 69%;
+    height: 1px;
+    background-color: #304149;
+    align-self: center;
+    // margin-top: 3rem;
+    display: none;
+  }
+
   .skills {
     width: 50%;
     height: 100vh;
@@ -181,4 +190,46 @@
       width: 420px;
     }
   }
+}
+
+@media screen and (max-width: 1700px) {
+  .skills-container {
+    justify-content: center;
+    flex-direction: column;
+
+    .h-divider-responsive {
+      display: block;
+    }
+
+    .skills,
+    .education-experience {
+      width: 100%;
+    }
+
+    .education-experience {
+      padding: 0;
+    }
+
+    .v-divider {
+      display: none;
+    }
+
+    .experience-container {
+      flex-direction: column;
+    }
+    .experience .job {
+      h4 {
+        align-self: center;
+      }
+      p {
+        align-self: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 540px) {
 }
