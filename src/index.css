@@ -15,9 +15,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* overflow-x: hidden; */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
   background-color: #e2ded0;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
