@@ -29,6 +29,7 @@ const Projects = () => {
                   <li>
                     An interactive story based choose your own adventure game
                   </li>
+                  <li>Tech Stack:</li>
                   <li>
                     React, React-Spring, Phaser, Axios, Express, Node, PSQL
                   </li>
@@ -61,6 +62,8 @@ const Projects = () => {
                     Scheduler is single-page app that allows students to book
                     appointments with interviewers
                   </li>
+                  <li>Tech Stack:</li>
+
                   <li>Axios and React</li>
                 </ul>
               </div>
@@ -94,6 +97,8 @@ const Projects = () => {
                     An interactive map where users can create personal maps of
                     favourite locations, using the Google Maps API
                   </li>
+                  <li>Tech Stack:</li>
+
                   <li>Express, Node, EJS, PG, Sass</li>
                 </ul>
               </div>
@@ -122,6 +127,8 @@ const Projects = () => {
                 </h2>
                 <ul>
                   <li>Tweeter is a simple, single-page Twitter clone</li>
+                  <li>Tech Stack:</li>
+
                   <li>HTML, CSS, JS, jQuery, Node, Express, MongoDB</li>
                 </ul>
               </div>
