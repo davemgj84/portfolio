@@ -10,7 +10,7 @@ const About = () => {
           <img className="profile-image" src={profile} alt="Handsome Man" />
         </div>
         <div className="bio">
-          <h1>David Jardine</h1>
+          <h1>David J</h1>
           <p className="bio-text">
             I am a Full Stack Junior Web Developer with a background as an
             artist. I offer many perspectives and modes of thinking with my
