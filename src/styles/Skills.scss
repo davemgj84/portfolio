@@ -27,7 +27,6 @@
     height: 1px;
     background-color: #304149;
     align-self: center;
-    // margin-top: 3rem;
     display: none;
   }
 
@@ -38,6 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: ease-in-out 0.3s;
 
     h1 {
       font-size: 56px;
@@ -120,10 +120,8 @@
     }
 
     .credentials {
-      // align-self: flex-start;
       color: #59666d;
       font-size: 24px;
-      // width: 400px;
     }
 
     .date {
@@ -136,7 +134,6 @@
       color: #59666d;
       font-size: 24px;
       padding-top: 1rem;
-      // width: 420px;
     }
   }
 
@@ -197,6 +194,14 @@
     justify-content: center;
     flex-direction: column;
 
+    .skills {
+      height: 95vh;
+    }
+
+    .experience h1 {
+      padding-top: 4rem;
+    }
+
     .h-divider-responsive {
       display: block;
     }
@@ -208,15 +213,16 @@
 
     .education-experience {
       padding: 0;
+
+      .experience {
+        height: 59vh;
+      }
     }
 
     .v-divider {
       display: none;
     }
 
-    .experience-container {
-      flex-direction: column;
-    }
     .experience .job {
       h4 {
         align-self: center;
@@ -229,7 +235,166 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .skills-container .skills {
+    height: 100%;
+  }
+
+  .skills-container .education-experience {
+    height: 100%;
+  }
+
+  .skills-container .education {
+    height: 50%;
+  }
+
+  .skills-container .experience {
+    height: 50%;
+  }
+
+  .skills-container .h-divider-responsive {
+    margin-top: 3rem;
+  }
+
+  .skills-container .experience .experience-container {
+    padding-bottom: 8rem;
+  }
+
+  .skills-container .experience-container {
+    flex-direction: column;
+  }
+
+  .skills-container .experience h1 {
+    padding-bottom: 0;
+  }
+
+  .skills-container .experience h3 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container .skills {
+    height: 100%;
+  }
+
+  .skills-container .education-experience {
+    height: 100%;
+  }
+
+  .skills-container .education {
+    height: 50%;
+  }
+
+  .skills-container .experience {
+    height: 50%;
+  }
+
+  .skills-container .h-divider-responsive {
+    margin-top: 3rem;
+  }
 }
 
 @media screen and (max-width: 540px) {
+  .skills-container .skills {
+    height: 100%;
+
+    h1 {
+      font-size: 36px;
+      padding-top: 3rem;
+    }
+
+    .main {
+      font-size: 27px;
+      padding-top: 0;
+    }
+
+    .secondary {
+      font-size: 27px;
+    }
+
+    .subtitle {
+      font-size: 27px;
+    }
+
+    p {
+      font-size: 16px;
+      width: 200px;
+    }
+  }
+
+  .skills-container .h-divider-responsive {
+    margin-top: 3rem;
+  }
+
+  .skills-container .education {
+    height: 100%;
+    h1 {
+      font-size: 36px;
+      padding-top: 3rem;
+    }
+
+    .school {
+      font-size: 27px;
+      padding-top: 0;
+    }
+
+    .credentials {
+      font-size: 16px;
+    }
+
+    .date {
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .skills-container .education-experience {
+    height: 100%;
+  }
+
+  .skills-container .experience {
+    height: 100%;
+    .experience-container {
+      padding-bottom: 4rem;
+      padding-top: 0;
+    }
+
+    h1 {
+      font-size: 36px;
+      padding-top: 3rem;
+    }
+    h3 {
+      font-size: 27px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 15.5px;
+      width: 242px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .skills-container .skills h1 {
+    font-size: 30px;
+  }
+
+  .skills-container .education h1 {
+    font-size: 30px;
+  }
+
+  .skills-container .experience h1 {
+    font-size: 30px;
+  }
+
+  .skills-container .experience p {
+    font-size: 15px;
+    width: 210px;
+  }
 }

@@ -42,7 +42,6 @@ const Skills = () => {
             </div>
           </section>
           <div className="h-divider"></div>
-
           <section className="experience">
             <h1>Experience</h1>
             <div className="experience-container">
