@@ -82,15 +82,17 @@
 @media screen and (max-width: 768px) {
   .contacts {
     font-size: 18px;
+    padding-top: 20vh;
   }
   .contacts h1 {
     font-size: 42px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .contacts {
     font-size: 15px;
+    padding-top: 20vh;
   }
   .contacts h1 {
     font-size: 35px;

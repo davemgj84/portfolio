@@ -70,6 +70,14 @@
   .about {
     flex-direction: column;
   }
+  .about .bio .bio-text {
+    width: 550px;
+    max-width: none;
+  }
+
+  .about .profile-image {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -81,6 +89,7 @@
   }
   .about .bio .bio-text {
     font-size: 20px;
+    width: 350px;
   }
   .about .profile-image {
     max-width: 250px;
@@ -97,6 +106,7 @@
     font-size: 33px;
   }
   .about .bio .bio-text {
+    width: 250px;
     font-size: 16px;
   }
   .about .profile-image {
@@ -104,5 +114,23 @@
     width: 100%;
     border-radius: 200px;
     margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about .profile-image {
+    margin-top: 4rem;
+  }
+  .about .bio .bio-text {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .about .profile-image {
+    margin-top: 4rem;
+  }
+  .about .bio .bio-text {
+    width: 200px;
   }
 }
