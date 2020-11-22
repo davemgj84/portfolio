@@ -59,13 +59,8 @@ const Skills = () => {
                 <h3>Volunteer</h3>
                 <h4>Greater Vancouver Interactive Arts Society</h4>
                 <p>Grants Committee Member - August 2014 - August 2016</p>
-                <p>
-                  Working closely with committee members to award art grants
-                </p>
-                <p>
-                  Helping successful artists and makers to fulfil grant
-                  requirements
-                </p>
+                <p>Collaboration with committee to award art grants</p>
+                <p>Helping artists to fulfil grant requirements</p>
               </div>
             </div>
           </section>
