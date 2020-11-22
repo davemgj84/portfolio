@@ -15,7 +15,7 @@
     justify-content: center;
     width: 100%;
     top: 8vh;
-    font-size: 56px;
+    font-size: 48px;
     letter-spacing: 2px;
     color: #304149;
     padding-top: 3rem;
@@ -34,7 +34,7 @@
 
   h2 {
     color: #59666d;
-    font-size: 42px;
+    font-size: 38px;
     letter-spacing: 1px;
     margin-bottom: 2rem;
     transition: ease-in-out 0.3s;
@@ -90,7 +90,7 @@
 
   .thumbnail {
     width: 100%;
-    max-width: 400px;
+    max-width: 360px;
     height: auto;
     border-radius: 10px;
     cursor: pointer;
@@ -140,7 +140,7 @@
 
 @media screen and (max-width: 1024px) {
   .projects h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   .projects h2 {
@@ -165,7 +165,7 @@
 
 @media screen and (max-width: 540px) {
   .projects h1 {
-    font-size: 40px;
+    font-size: 38px;
     // height: 12vh;
     padding-top: 1rem;
     padding-bottom: 1rem;
