@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i class="fas fa-gamepad"></i>{" "}
+                  <i className="fas fa-gamepad"></i>{" "}
                   <a
                     rel="noreferrer"
                     target="_blank"
@@ -47,7 +47,7 @@ const Projects = () => {
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i class="far fa-calendar-alt"></i>
+                  <i className="far fa-calendar-alt"></i>
                   <a
                     rel="noreferrer"
                     target="_blank"
@@ -84,7 +84,7 @@ const Projects = () => {
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i class="fas fa-map-marker-alt"></i>
+                  <i className="fas fa-map-marker-alt"></i>
                   <a
                     rel="noreferrer"
                     target="_blank"
@@ -118,7 +118,7 @@ const Projects = () => {
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i class="fas fa-retweet"></i>
+                  <i className="fas fa-retweet"></i>
                   <a
                     rel="noreferrer"
                     target="_blank"
