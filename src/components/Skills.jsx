@@ -19,6 +19,9 @@ const Skills = () => {
             <h3 className="subtitle">Testing</h3>
             <p>Jest, Storybook, Cypress, Mocha/Chai Systems/Databases: SQL</p>
           </div>
+
+          <div className="h-divider"></div>
+
           <h3 className="secondary">Other Skills</h3>
           <div>
             <h3 className="subtitle">Software</h3>
