@@ -1,5 +1,5 @@
 .about {
-  height: 92vh;
+  height: 100vh;
   padding-top: 8vh;
   width: 100%;
   display: flex;
@@ -8,10 +8,9 @@
 
   .profile-image {
     height: auto;
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     border-radius: 500px;
-    margin-top: 3rem;
     animation: fadeInSlide 0.5s;
     transition: ease-in-out 0.3s;
   }
@@ -28,7 +27,7 @@
     transition: ease-in-out 0.3s;
 
     h1 {
-      font-size: 66px;
+      font-size: 56px;
       font-weight: bolder;
       color: #304149;
       text-transform: uppercase;
@@ -37,9 +36,8 @@
     }
 
     .bio-text {
-      max-width: 400px;
       color: #304149;
-      font-size: 26px;
+      font-size: 24px;
       transition: ease-in-out 0.3s;
       padding-left: 1rem;
     }
@@ -76,7 +74,8 @@
   }
 
   .about .profile-image {
-    max-width: 400px;
+    max-width: 350px;
+    margin-top: 3rem;
   }
 }
 
@@ -122,7 +121,8 @@
     margin-top: 4rem;
   }
   .about .bio .bio-text {
-    width: 250px;
+    width: 275px;
+    padding-bottom: 2rem;
   }
 }
 
@@ -131,6 +131,6 @@
     margin-top: 4rem;
   }
   .about .bio .bio-text {
-    width: 200px;
+    width: 250px;
   }
 }
