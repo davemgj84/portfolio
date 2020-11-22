@@ -43,8 +43,8 @@
       font-size: 42px;
       letter-spacing: 2px;
       color: #304149;
-      padding-top: 3rem;
-      padding-bottom: 2rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
     }
 
     .main {
@@ -59,7 +59,7 @@
       height: 1px;
       background-color: #304149;
       align-self: center;
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
 
     .secondary {
@@ -68,6 +68,10 @@
       font-size: 32px;
       padding-top: 2rem;
       padding-bottom: 1rem;
+    }
+
+    .secondary-container {
+      padding-bottom: 2rem;
     }
 
     .subtitle {
@@ -99,7 +103,7 @@
       height: 1px;
       background-color: #304149;
       align-self: center;
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
   }
 
@@ -114,8 +118,8 @@
       font-size: 42px;
       letter-spacing: 2px;
       color: #304149;
-      padding-top: 3rem;
-      padding-bottom: 2rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
     }
 
     .school {
@@ -190,7 +194,7 @@
       color: #59666d;
       font-size: 22px;
       padding-top: 1rem;
-      width: 420px;
+      width: 350px;
     }
   }
 }

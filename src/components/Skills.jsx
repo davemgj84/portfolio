@@ -23,7 +23,7 @@ const Skills = () => {
           <div className="h-divider"></div>
 
           <h3 className="secondary">Other Skills</h3>
-          <div>
+          <div className="secondary-container">
             <h3 className="subtitle">Software</h3>
             <p>Photoshop, Illustrator, InDesign</p>
             <h3 className="subtitle">Fine Art</h3>
@@ -59,7 +59,6 @@ const Skills = () => {
                 <h3>Volunteer</h3>
                 <h4>Greater Vancouver Interactive Arts Society</h4>
                 <p>Grants Committee Member - August 2014 - August 2016</p>
-                <p>Review grant proposals and applications</p>
                 <p>
                   Working closely with committee members to award art grants
                 </p>
