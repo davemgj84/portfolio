@@ -10,6 +10,14 @@
   font-size: 24px;
   animation: fadeInSlide 0.5s;
 
+  div {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   a {
     color: inherit;
   }
@@ -18,11 +26,11 @@
     color: #304149;
     font-size: 48px;
     letter-spacing: 2px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   h3 {
-    padding: 2rem;
+    padding: 1rem;
     transition: ease-in-out 0.3s;
   }
 
@@ -94,7 +102,6 @@
 @media screen and (max-width: 380px) {
   .contacts {
     font-size: 15px;
-    padding-top: 20vh;
   }
   .contacts h1 {
     font-size: 35px;
