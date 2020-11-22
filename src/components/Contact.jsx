@@ -7,11 +7,11 @@ const Contact = () => {
       <section className="contacts">
         <div>
           <h1>Contact</h1>
-          <h3>
+          {/* <h3>
             <a className="phone" href="tel:778-998-8368">
               <i className="fas fa-mobile-alt fa-2x"></i> (778) 998-8368
             </a>
-          </h3>
+          </h3> */}
 
           <h3>
             <a
