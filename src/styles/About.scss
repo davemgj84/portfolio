@@ -1,6 +1,6 @@
 .about {
   height: 100vh;
-  padding-top: 8vh;
+  padding-top: 90px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -121,6 +121,7 @@
     margin-top: 4rem;
   }
   .about .bio .bio-text {
+    font-size: 14px;
     width: 275px;
     padding-bottom: 2rem;
   }

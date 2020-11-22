@@ -1,7 +1,7 @@
 .projects {
   width: 100%;
   height: 100vh;
-  padding-top: 8vh;
+  padding-top: 90px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    top: 8vh;
+    top: 90px;
     font-size: 48px;
     letter-spacing: 2px;
     color: #304149;
@@ -166,7 +166,6 @@
 @media screen and (max-width: 540px) {
   .projects h1 {
     font-size: 38px;
-    // height: 12vh;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
