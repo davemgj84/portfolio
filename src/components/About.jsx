@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/About.scss";
 import profile from "../assets/profile.png";
 
@@ -18,7 +19,9 @@ const About = () => {
             interactive projects and collaborating with a team. I enjoy critical
             thinking, problem solving, and creativity in my work. I recently
             finished the Web Development Bootcamp at Lighthouse Labs and am
-            eager to begin my journey as a developer.
+            eager to begin my journey as a developer. Check out my{" "}
+            <Link to={"/projects"}>projects</Link> and{" "}
+            <Link to={"/contact"}>contact</Link> me today!
           </p>
         </div>
       </section>

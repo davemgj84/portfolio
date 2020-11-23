@@ -42,6 +42,9 @@
       font-size: 18px;
       line-height: 32px;
       transition: ease-in-out 0.3s;
+      a {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -86,7 +89,6 @@
 
   .about .profile-image {
     max-width: 350px;
-    margin-top: 3rem;
   }
 }
 
@@ -118,7 +120,6 @@
   .about .profile-image {
     max-width: 250px;
     border-radius: 250px;
-    margin-top: 2rem;
   }
 }
 
@@ -128,11 +129,13 @@
     max-width: 300px;
   }
   .about .bio .bio-text {
-    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 2rem;
   }
   .about .profile-image {
-    max-width: 200px;
-    border-radius: 200px;
+    max-width: 180px;
+    border-radius: 180px;
+    margin-top: 6rem;
   }
 }
 
@@ -140,29 +143,24 @@
   .about .bio {
     max-width: 280px;
     margin-top: 0.5rem;
-    margin-bottom: 8rem;
   }
   .about .bio h1 {
     margin-bottom: 0.5rem;
   }
-  .about .bio .bio-text {
-    font-size: 14px;
-    line-height: 22px;
-  }
   .about .profile-image {
-    max-width: 160px;
-    border-radius: 160px;
-    margin-top: 8rem;
+    max-width: 140px;
+    border-radius: 140px;
+    margin-top: 9rem;
   }
 }
 
 @media screen and (max-width: 280px) {
   .about .bio {
     max-width: 250px;
-    margin-bottom: 8rem;
   }
-  .about .bio .bio-text {
-    font-size: 14px;
-    line-height: 24px;
+  .about .profile-image {
+    max-width: 140px;
+    border-radius: 140px;
+    margin-top: 7rem;
   }
 }
