@@ -11,7 +11,7 @@ const Typewriter = ({ message }) => {
     [message]
   );
   const transitions = useTransition(items, (item) => item.key, {
-    trail: 35,
+    trail: 110,
     from: { display: "none" },
     enter: { display: "" },
   });
