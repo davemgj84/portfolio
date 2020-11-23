@@ -5,8 +5,9 @@ nav {
   height: 90px;
   background-color: #1e3857;
   z-index: 1;
-  position: fixed;
+  top: 0;
   width: 100%;
+  position: fixed;
 
   .logo {
     color: #d9dcdf;
@@ -37,6 +38,7 @@ nav {
     justify-content: space-around;
     z-index: 1;
     transition: ease-in-out 0.3s;
+    width: 33%;
   }
 
   .nav-links a {
@@ -90,15 +92,22 @@ nav {
       background-color: #1e3857;
       flex-direction: column;
       align-items: center;
-      width: 42%;
+      width: 50%;
       display: none;
-      padding-bottom: 20vh;
+      padding-bottom: 50vh;
     }
     .nav-links li {
       opacity: 0;
     }
     .burger {
       display: block;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .nav-links {
+      width: 100%;
+      padding-bottom: 20vh;
     }
   }
 

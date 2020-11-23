@@ -65,7 +65,7 @@ const Projects = () => {
 
                   <li>
                     Tech Stack: <br />
-                    Axios and React
+                    React, Sass, and Axios
                   </li>
                 </ul>
               </div>

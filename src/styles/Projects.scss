@@ -33,7 +33,7 @@
   }
 
   h2 {
-    color: #59666d;
+    color: #44545b;
     font-size: 38px;
     letter-spacing: 1px;
     margin-bottom: 2rem;
@@ -45,7 +45,7 @@
   }
 
   h2:hover {
-    color: #44545b;
+    color: #304149;
     text-shadow: 2px 2px 1px #b4b1a6;
     text-decoration: underline;
   }
@@ -59,7 +59,8 @@
   }
 
   .name-desc {
-    padding: 1rem;
+    margin: 1rem;
+    max-width: 400px;
   }
 
   .project-block {
@@ -71,7 +72,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
   }
 
   .bottom-two {
@@ -81,11 +82,14 @@
   }
 
   li {
-    max-width: 420px;
-    color: #304149;
-    font-size: 24px;
-    padding-bottom: 1rem;
+    color: #59666d;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 1rem;
     transition: ease-in-out 0.3s;
+    list-style: disc;
+    list-style-position: inside;
   }
 
   .thumbnail {
@@ -127,11 +131,8 @@
     align-items: center;
   }
 
-  .projects li {
-    max-width: 400px;
-  }
   .projects .top-two {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .projects .divider {
     display: block;
@@ -147,8 +148,12 @@
     font-size: 36px;
   }
 
+  .projects .name-desc {
+    max-width: 380px;
+  }
+
   .projects li {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .projects .thumbnail {
@@ -174,11 +179,30 @@
     font-size: 30px;
   }
 
+  .projects .name-desc {
+    max-width: 300px;
+  }
+
   .projects li {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .projects .thumbnail {
     max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects .name-desc {
+    max-width: 260px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .projects .name-desc {
+    max-width: 220px;
+  }
+  .projects li {
+    list-style: none;
   }
 }

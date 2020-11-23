@@ -7,12 +7,6 @@ const Contact = () => {
       <section className="contacts">
         <div>
           <h1>Contact</h1>
-          {/* <h3>
-            <a className="phone" href="tel:778-998-8368">
-              <i className="fas fa-mobile-alt fa-2x"></i> (778) 998-8368
-            </a>
-          </h3> */}
-
           <h3>
             <a
               className="email"
@@ -20,7 +14,7 @@ const Contact = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <i className="far fa-envelope fa-2x"></i> davemgj@gmail.com
+              <i className="far fa-envelope "></i>davemgj@gmail.com
             </a>
           </h3>
           <h3>
@@ -30,7 +24,7 @@ const Contact = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <i className="fab fa-github fa-2x"></i> Github
+              <i className="fab fa-github "></i>Github
             </a>
           </h3>
           <h3>
@@ -40,7 +34,7 @@ const Contact = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <i className="fab fa-linkedin fa-2x"></i> LinkedIn
+              <i className="fab fa-linkedin"></i>LinkedIn
             </a>
           </h3>
         </div>

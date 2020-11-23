@@ -10,19 +10,20 @@
     height: auto;
     max-width: 400px;
     width: 100%;
-    border-radius: 500px;
+    border-radius: 400px;
     animation: fadeInSlide 0.5s;
     transition: ease-in-out 0.3s;
   }
 
   .bio {
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 1rem;
+    margin-left: 100px;
     animation: fadeIn 0.8s;
     transition: ease-in-out 0.3s;
 
@@ -31,15 +32,16 @@
       font-weight: bolder;
       color: #304149;
       text-transform: uppercase;
-      padding-bottom: 1rem;
+      margin-bottom: 1rem;
       transition: ease-in-out 0.3s;
     }
 
     .bio-text {
+      font-family: "Source Sans Pro", sans-serif;
       color: #304149;
-      font-size: 24px;
+      font-size: 18px;
+      line-height: 32px;
       transition: ease-in-out 0.3s;
-      padding-left: 1rem;
     }
   }
 
@@ -64,13 +66,22 @@
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .about .bio {
+    max-width: 500px;
+    margin-left: 80px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .about {
     flex-direction: column;
   }
-  .about .bio .bio-text {
-    width: 550px;
-    max-width: none;
+
+  .about .bio {
+    align-items: center;
+    margin-left: 1rem;
+    max-width: 700px;
   }
 
   .about .profile-image {
@@ -81,14 +92,10 @@
 
 @media screen and (max-width: 768px) {
   .about .bio {
-    max-width: 250px;
+    max-width: 500px;
   }
   .about .bio h1 {
     font-size: 42px;
-  }
-  .about .bio .bio-text {
-    font-size: 20px;
-    width: 350px;
   }
   .about .profile-image {
     max-width: 250px;
@@ -99,39 +106,62 @@
 
 @media screen and (max-width: 540px) {
   .about .bio {
-    max-width: 200px;
+    max-width: 360px;
   }
   .about .bio h1 {
     font-size: 33px;
   }
   .about .bio .bio-text {
-    width: 250px;
     font-size: 16px;
+    line-height: 26px;
   }
   .about .profile-image {
-    max-width: 200px;
-    width: 100%;
-    border-radius: 200px;
-    margin-top: 2rem;
+    max-width: 250px;
+    border-radius: 250px;
   }
 }
 
-@media screen and (max-width: 360px) {
-  .about .profile-image {
-    margin-top: 4rem;
+@media screen and (max-width: 375px) {
+  .about .bio {
+    margin-bottom: 3rem;
+    max-width: 300px;
   }
   .about .bio .bio-text {
     font-size: 14px;
-    width: 275px;
-    padding-bottom: 2rem;
+  }
+  .about .profile-image {
+    max-width: 200px;
+    border-radius: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about .bio {
+    max-width: 280px;
+    margin-top: 0.5rem;
+    margin-bottom: 8rem;
+  }
+  .about .bio h1 {
+    margin-bottom: 0.5rem;
+  }
+  .about .bio .bio-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .about .profile-image {
+    max-width: 180px;
+    border-radius: 180px;
+    margin-top: 8rem;
   }
 }
 
 @media screen and (max-width: 280px) {
-  .about .profile-image {
-    margin-top: 4rem;
+  .about .bio {
+    max-width: 250px;
+    margin-bottom: 8rem;
   }
   .about .bio .bio-text {
-    width: 250px;
+    font-size: 14px;
+    line-height: 24px;
   }
 }
