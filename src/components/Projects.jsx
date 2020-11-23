@@ -30,8 +30,8 @@ const Projects = () => {
                     An interactive story based choose your own adventure game
                   </li>
                   <li>
-                    Tech Stack: <br />
-                    React, React-Spring, Phaser, Axios, Express, Node, PSQL
+                    Tech Stack: React, React-Spring, Phaser, Axios, Express,
+                    Node, PSQL
                   </li>
                 </ul>
               </div>
@@ -43,7 +43,8 @@ const Projects = () => {
                 <img className="thumbnail" src={sapphire} alt="Sapphire" />
               </a>
             </div>
-            <div className="divider"></div>
+            <hr className="divider" />
+
             <div className="project-block">
               <div className="name-desc">
                 <h2>
@@ -63,10 +64,7 @@ const Projects = () => {
                     appointments with interviewers
                   </li>
 
-                  <li>
-                    Tech Stack: <br />
-                    React, Sass, and Axios
-                  </li>
+                  <li>Tech Stack: React, Sass, and Axios</li>
                 </ul>
               </div>
               <a
@@ -79,7 +77,7 @@ const Projects = () => {
             </div>
           </section>
           <section className="bottom-two">
-            <div className="divider"></div>
+            <hr className="divider" />
 
             <div className="project-block">
               <div className="name-desc">
@@ -99,10 +97,7 @@ const Projects = () => {
                     An interactive map where users can create personal maps of
                     favourite locations, using the Google Maps API
                   </li>
-                  <li>
-                    Tech Stack: <br />
-                    Express, Node, EJS, PG, Sass
-                  </li>
+                  <li>Tech Stack: Express, Node, EJS, PG, Sass</li>
                 </ul>
               </div>
               <a
@@ -113,7 +108,7 @@ const Projects = () => {
                 <img className="thumbnail" src={wikiMaps} alt="Wiki-Maps" />
               </a>
             </div>
-            <div className="divider"></div>
+            <hr className="divider" />
 
             <div className="project-block">
               <div className="name-desc">
@@ -131,8 +126,7 @@ const Projects = () => {
                 <ul>
                   <li>Tweeter is a simple, single-page Twitter clone</li>
                   <li>
-                    Tech Stack: <br />
-                    HTML, CSS, JS, jQuery, Node, Express, MongoDB
+                    Tech Stack: HTML, CSS, JS, jQuery, Node, Express, MongoDB
                   </li>
                 </ul>
               </div>
@@ -144,7 +138,7 @@ const Projects = () => {
                 <img className="thumbnail" src={tweeter} alt="Tweeter" />
               </a>
             </div>
-            <div className="divider"></div>
+            <hr className="divider" />
           </section>
         </div>
       </section>

@@ -6,35 +6,45 @@ const Skills = () => {
     <>
       <div className="skills-container">
         <section className="skills">
-          <h1>Professional Skills</h1>
+          <h2>Professional Skills</h2>
           <h3 className="main">Web Development</h3>
           <div className="info">
             <h3 className="subtitle">Languages</h3>
-            <p>Javascript, Ruby, HTML, CSS</p>
+            <ul>
+              <li>Javascript, Ruby, HTML, CSS</li>
+            </ul>
             <h3 className="subtitle">Frameworks/Libraries</h3>
-            <p>
-              NodeJS, ReactJS, Phaser, Ajax, Axios, jQuery, Bootstrap, Rails,
-              EJS, Express, SASS
-            </p>
+            <ul>
+              <li>
+                NodeJS, ReactJS, Phaser, Ajax, Axios, jQuery, Bootstrap, Rails,
+                EJS, Express, SASS
+              </li>
+            </ul>
             <h3 className="subtitle">Testing</h3>
-            <p>Jest, Storybook, Cypress, Mocha/Chai Systems/Databases: SQL</p>
+            <ul>
+              <li>
+                Jest, Storybook, Cypress, Mocha/Chai Systems/Databases: SQL
+              </li>
+            </ul>
           </div>
-
-          <div className="h-divider"></div>
-
+          <hr className="h-divider" />
           <h3 className="secondary">Other Skills</h3>
           <div className="secondary-container">
             <h3 className="subtitle">Software</h3>
-            <p>Photoshop, Illustrator, InDesign</p>
+            <ul>
+              <li>Photoshop, Illustrator, InDesign</li>
+            </ul>
             <h3 className="subtitle">Fine Art</h3>
-            <p>Art History, Design, Painting, Sculpture</p>
+            <ul>
+              <li>Art History, Design, Painting, Sculpture</li>
+            </ul>
           </div>
         </section>
-        <div className="h-divider-responsive"></div>
-        <div className="v-divider"></div>
+        <hr className="h-divider-responsive" />
+        <hr className="v-divider" />
         <section className="education-experience">
           <section className="education">
-            <h1>Education</h1>
+            <h2>Education</h2>
             <div>
               <h3 className="school">Lighthouse Labs</h3>
               <h4 className="credentials">Web Development Diploma</h4>
@@ -44,23 +54,28 @@ const Skills = () => {
               <h4 className="date">June 2019</h4>
             </div>
           </section>
-          <div className="h-divider"></div>
+          <hr className="h-divider" />
           <section className="experience">
-            <h1>Experience</h1>
+            <h2>Experience</h2>
             <div className="experience-container">
               <div className="job">
-                <h3>Assistant Manager</h3>
-                <h4>The Soma Gallery | April 2014 - March 2020</h4>
-                <p>Sales of art, literature and antiquities</p>
-                <p>Training and supervision of staff</p>
-                <p>Managing inventory & payroll</p>
+                <h3>Work</h3>
+                <h4>The Soma Gallery</h4>
+                <ul>
+                  <li>Assistant Manager - April 2014 - March 2020</li>
+                  <li>Sales of art, literature and antiquities</li>
+                  <li>Training and supervision of staff</li>
+                  <li>Managing inventory & payroll</li>
+                </ul>
               </div>
               <div className="job">
                 <h3>Volunteer</h3>
                 <h4>Greater Vancouver Interactive Arts Society</h4>
-                <p>Grants Committee Member - August 2014 - August 2016</p>
-                <p>Collaboration with committee to award art grants</p>
-                <p>Helping artists to fulfil grant requirements</p>
+                <ul>
+                  <li>Grants Committee Member - August 2014 - August 2016</li>
+                  <li>Collaboration with committee to award art grants</li>
+                  <li>Helping artists to fulfil grant requirements</li>
+                </ul>
               </div>
             </div>
           </section>

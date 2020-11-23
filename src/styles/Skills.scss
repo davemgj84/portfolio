@@ -2,6 +2,7 @@
   display: flex;
   animation: fadeInSlide 0.5s;
   transition: ease-in-out 0.3s;
+  padding-top: 90px;
 
   @keyframes fadeInSlide {
     from {
@@ -17,93 +18,103 @@
   .v-divider {
     width: 1px;
     height: 80vh;
-    margin-top: 8rem;
-    background-color: #304149;
+    background-color: #8a9398;
     align-self: center;
+    border-width: 0;
+    border-style: none;
   }
 
   .h-divider-responsive {
     width: 70%;
     height: 1px;
-    background-color: #304149;
+    background-color: #8a9398;
     align-self: center;
+    border-width: 0;
+    border-style: none;
     display: none;
   }
 
   .skills {
     width: 50%;
     height: 100%;
-    padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: ease-in-out 0.3s;
+    margin-top: 2rem;
 
-    h1 {
+    h2 {
       font-size: 42px;
       letter-spacing: 2px;
       color: #304149;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
+      margin-bottom: 2rem;
     }
 
     .main {
       align-self: center;
       color: #44545b;
-      font-size: 38px;
-      padding-bottom: 1rem;
+      font-size: 32px;
+      margin-bottom: 1rem;
     }
 
     .h-divider {
       width: 70%;
       height: 1px;
-      background-color: #304149;
+      background-color: #8a9398;
       align-self: center;
       margin-top: 2rem;
+      border-width: 0;
+      border-style: none;
     }
 
     .secondary {
       align-self: center;
       color: #44545b;
       font-size: 32px;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
     }
 
     .secondary-container {
-      padding-bottom: 2rem;
+      margin-bottom: 2rem;
     }
 
     .subtitle {
-      color: #59666d;
-      font-size: 32px;
+      color: #44545b;
+      font-size: 28px;
       align-self: flex-start;
-      padding-top: 1rem;
+      margin-top: 1rem;
     }
 
-    p {
+    li {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 18px;
+      line-height: 32px;
       align-self: flex-start;
-      color: #304149;
-      font-size: 24px;
-      padding-top: 1rem;
+      color: #59666d;
+      margin-top: 1rem;
       width: 750px;
+      list-style: disc;
+      list-style-position: inside;
     }
   }
 
   .education-experience {
     width: 50%;
     height: 100%;
-    padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
 
     .h-divider {
       width: 70%;
       height: 1px;
-      background-color: #304149;
+      background-color: #8a9398;
       align-self: center;
       margin-top: 2rem;
+      border-width: 0;
+      border-style: none;
     }
   }
 
@@ -114,36 +125,34 @@
     flex-direction: column;
     align-items: center;
 
-    h1 {
+    h2 {
+      margin-bottom: 1rem;
       font-size: 42px;
       letter-spacing: 2px;
       color: #304149;
-      padding-top: 2rem;
     }
 
     .school {
       align-self: center;
       color: #44545b;
-      font-size: 38px;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      font-size: 32px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
 
     .credentials {
+      font-family: "Source Sans Pro", sans-serif;
+      line-height: 28px;
+      font-weight: normal;
       color: #59666d;
       font-size: 24px;
     }
 
     .date {
+      font-family: "Source Sans Pro", sans-serif;
       color: #59666d;
       font-size: 18px;
-      padding-top: 0.5rem;
-    }
-
-    p {
-      color: #59666d;
-      font-size: 24px;
-      padding-top: 1rem;
+      font-weight: normal;
     }
   }
 
@@ -154,260 +163,338 @@
     flex-direction: column;
     align-items: center;
 
-    h1 {
+    h2 {
       font-size: 42px;
       letter-spacing: 2px;
       color: #304149;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
     }
 
     .experience-container {
       display: flex;
       justify-content: space-evenly;
       width: 100%;
-      padding-bottom: 2rem;
+      margin-bottom: 2rem;
     }
 
     .job {
       display: flex;
       flex-direction: column;
+      margin: 2rem;
+      margin-top: 0;
     }
 
     h3 {
       align-self: center;
       color: #44545b;
-      font-size: 38px;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      font-size: 32px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
 
     h4 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: normal;
       align-self: flex-start;
-      color: #59666d;
+      color: #44545b;
       font-size: 24px;
-      max-width: 400px;
+      line-height: 32px;
     }
 
-    p {
+    li {
+      font-family: "Source Sans Pro", sans-serif;
       align-self: flex-start;
       color: #59666d;
-      font-size: 22px;
-      padding-top: 1rem;
-      width: 350px;
+      font-size: 18px;
+      line-height: 32px;
+      margin-top: 1rem;
+      list-style: disc;
+      list-style-position: inside;
     }
   }
 }
 
 @media screen and (max-width: 1700px) {
   .skills-container {
+    .skills {
+      h2 {
+        font-size: 38px;
+      }
+      .main {
+        font-size: 27px;
+      }
+      .secondary {
+        font-size: 27px;
+      }
+      .subtitle {
+        font-size: 24px;
+      }
+      li {
+        width: 600px;
+      }
+    }
+
+    .education {
+      h2 {
+        font-size: 38px;
+      }
+      .school {
+        font-size: 27px;
+      }
+      .credentials {
+        font-size: 20px;
+      }
+      .date {
+        font-size: 16px;
+      }
+    }
+
+    .experience {
+      h2 {
+        font-size: 38px;
+      }
+      h3 {
+        font-size: 27px;
+      }
+      h4 {
+        font-size: 18px;
+      }
+      li {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .skills-container {
     justify-content: center;
     flex-direction: column;
-
-    .experience h1 {
-      padding-top: 4rem;
-    }
-
-    .h-divider-responsive {
-      margin-top: 4rem;
-      display: block;
-    }
 
     .skills,
     .education-experience {
       width: 100%;
     }
 
-    .education-experience {
-      padding: 0;
-
-      .experience {
-        height: 59vh;
-      }
-    }
-
     .v-divider {
       display: none;
     }
 
-    .experience .job {
-      h4 {
+    .h-divider-responsive {
+      display: block;
+    }
+
+    .skills {
+      height: 100%;
+
+      h2 {
+        font-size: 38px;
+      }
+      .main {
+        font-size: 27px;
+      }
+      .secondary {
+        font-size: 27px;
+      }
+      .subtitle {
+        font-size: 24px;
+      }
+      li {
+        font-size: 18px;
+        width: 780px;
+      }
+    }
+
+    .education-experience {
+      height: 100%;
+      margin: 0;
+    }
+
+    .education {
+      height: 50%;
+      div {
+        width: 780px;
+      }
+      h2 {
+        font-size: 38px;
+        margin-top: 2rem;
+      }
+      .school {
+        font-size: 27px;
+      }
+      .credentials {
+        font-size: 20px;
+        line-height: 32px;
+      }
+      .date {
+        font-size: 16px;
+      }
+    }
+
+    .experience-container {
+      flex-direction: column;
+      padding-bottom: 2rem;
+    }
+
+    .experience {
+      height: 50%;
+      .job {
         align-self: center;
       }
-      p {
-        align-self: center;
+
+      h2 {
+        margin-bottom: 0;
+      }
+      h3 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        align-self: flex-start;
+      }
+      li {
+        font-size: 18px;
+        width: 780px;
       }
     }
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .skills-container .skills {
-    height: 100%;
-  }
-
-  .skills-container .education-experience {
-    height: 100%;
-  }
-
-  .skills-container .education {
-    height: 50%;
-  }
-
-  .skills-container .experience {
-    height: 50%;
-  }
-
-  .skills-container .h-divider-responsive {
-    margin-top: 3rem;
-  }
-
-  .skills-container .experience .experience-container {
-    padding-bottom: 8rem;
-  }
-
-  .skills-container .experience-container {
-    flex-direction: column;
-  }
-
-  .skills-container .experience h1 {
-    padding-bottom: 0;
-  }
-
-  .skills-container .experience h3 {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .skills-container .skills {
-    height: 100%;
-  }
+  .skills-container {
+    .skills {
+      height: 100%;
+      li {
+        width: 530px;
+      }
+    }
 
-  .skills-container .education-experience {
-    height: 100%;
-  }
+    .education-experience {
+      height: 100%;
+    }
 
-  .skills-container .education {
-    height: 50%;
-  }
+    .education {
+      height: 50%;
+      div {
+        width: 530px;
+      }
+    }
 
-  .skills-container .experience {
-    height: 50%;
-  }
-
-  .skills-container .h-divider-responsive {
-    margin-top: 3rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .skills-container .skills p {
-    width: 400px;
+    .experience {
+      height: 50%;
+      li {
+        width: 530px;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 540px) {
-  .skills-container .skills {
-    height: 100%;
+  .skills-container {
+    .skills {
+      height: 100%;
 
-    h1 {
-      font-size: 36px;
-      padding-top: 3rem;
+      h2 {
+        font-size: 32px;
+      }
+
+      .main {
+        font-size: 21px;
+        margin-top: 0;
+      }
+
+      .secondary {
+        font-size: 21px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+
+      li {
+        font-size: 16px;
+        width: 420px;
+      }
     }
 
-    .main {
-      font-size: 27px;
-      padding-top: 0;
+    .education {
+      height: 100%;
+
+      div {
+        width: 420px;
+      }
+      h2 {
+        font-size: 36px;
+      }
+
+      .school {
+        font-size: 27px;
+      }
+
+      .credentials {
+        font-size: 16px;
+      }
+
+      .date {
+        font-size: 14px;
+      }
     }
 
-    .secondary {
-      font-size: 27px;
+    .education-experience {
+      height: 100%;
     }
 
-    .subtitle {
-      font-size: 27px;
-    }
+    .experience {
+      height: 100%;
+      .experience-container {
+        margin-bottom: 4rem;
+        margin-top: 0;
+      }
 
-    p {
-      font-size: 16px;
-      width: 200px;
-    }
-  }
-
-  .skills-container .h-divider-responsive {
-    margin-top: 3rem;
-  }
-
-  .skills-container .education {
-    height: 100%;
-    h1 {
-      font-size: 36px;
-      padding-top: 3rem;
-    }
-
-    .school {
-      font-size: 27px;
-      padding-top: 0;
-    }
-
-    .credentials {
-      font-size: 16px;
-    }
-
-    .date {
-      font-size: 14px;
-    }
-
-    p {
-      font-size: 16px;
-    }
-  }
-
-  .skills-container .education-experience {
-    height: 100%;
-  }
-
-  .skills-container .experience {
-    height: 100%;
-    .experience-container {
-      padding-bottom: 4rem;
-      padding-top: 0;
-    }
-
-    h1 {
-      font-size: 36px;
-      padding-top: 3rem;
-    }
-    h3 {
-      font-size: 27px;
-    }
-    h4 {
-      font-size: 16px;
-    }
-    p {
-      font-size: 15.5px;
-      width: 242px;
+      h2 {
+        font-size: 36px;
+      }
+      h3 {
+        font-size: 27px;
+      }
+      h4 {
+        font-size: 16px;
+      }
+      li {
+        font-size: 16px;
+        width: 420px;
+      }
     }
   }
 }
 
-@media screen and (max-width: 300px) {
-  .skills-container .skills h1 {
+@media screen and (max-width: 420px) {
+  .skills-container .skills li {
+    width: 250px;
+  }
+  .skills-container .experience li {
+    width: 250px;
+  }
+
+  .skills-container .education div {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skills-container .skills h2 {
     font-size: 30px;
   }
 
-  .skills-container .education h1 {
+  .skills-container .education h2 {
     font-size: 30px;
   }
 
-  .skills-container .experience h1 {
+  .skills-container .experience h2 {
     font-size: 30px;
   }
 
-  .skills-container .experience p {
-    font-size: 15px;
-    width: 210px;
+  .skills-container .experience li {
+    font-size: 16px;
   }
 }
