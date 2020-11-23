@@ -93,9 +93,9 @@
       align-self: flex-start;
       color: #59666d;
       margin-top: 1rem;
-      width: 750px;
+      width: 730px;
       list-style: disc;
-      list-style-position: inside;
+      margin-left: 1.25rem;
     }
   }
 
@@ -210,7 +210,7 @@
       line-height: 32px;
       margin-top: 1rem;
       list-style: disc;
-      list-style-position: inside;
+      margin-left: 1.25rem;
     }
   }
 }
@@ -231,7 +231,7 @@
         font-size: 24px;
       }
       li {
-        width: 600px;
+        width: 580px;
       }
     }
 
@@ -268,7 +268,7 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1400px) {
   .skills-container {
     justify-content: center;
     flex-direction: column;
@@ -303,7 +303,7 @@
       }
       li {
         font-size: 18px;
-        width: 780px;
+        width: 760px;
       }
     }
 
@@ -354,7 +354,7 @@
       }
       li {
         font-size: 18px;
-        width: 780px;
+        width: 760px;
       }
     }
   }
@@ -365,7 +365,7 @@
     .skills {
       height: 100%;
       li {
-        width: 530px;
+        width: 510px;
       }
     }
 
@@ -383,7 +383,7 @@
     .experience {
       height: 50%;
       li {
-        width: 530px;
+        width: 510px;
       }
     }
   }
@@ -413,7 +413,7 @@
 
       li {
         font-size: 16px;
-        width: 420px;
+        width: 400px;
       }
     }
 
@@ -462,7 +462,7 @@
       }
       li {
         font-size: 16px;
-        width: 420px;
+        width: 400px;
       }
     }
   }
@@ -470,14 +470,14 @@
 
 @media screen and (max-width: 420px) {
   .skills-container .skills li {
-    width: 250px;
+    width: 290px;
   }
   .skills-container .experience li {
-    width: 250px;
+    width: 290px;
   }
 
   .skills-container .education div {
-    width: auto;
+    width: 290px;
   }
 }
 
@@ -486,15 +486,23 @@
     font-size: 30px;
   }
 
+  .skills-container .skills li {
+    width: 230px;
+  }
+
+  .skills-container .experience li {
+    width: 230px;
+  }
+
   .skills-container .education h2 {
     font-size: 30px;
   }
 
-  .skills-container .experience h2 {
-    font-size: 30px;
+  .skills-container .education div {
+    width: 230px;
   }
 
-  .skills-container .experience li {
-    font-size: 16px;
+  .skills-container .experience h2 {
+    font-size: 30px;
   }
 }

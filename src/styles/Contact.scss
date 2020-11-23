@@ -30,22 +30,13 @@
   }
 
   h3 {
-    margin: 1rem;
+    margin: 1.5rem;
     transition: ease-in-out 0.3s;
   }
 
   h3:hover {
-    color: #44545b;
+    color: #304149;
     text-shadow: 2px 2px 1px #b4b1a6;
-  }
-
-  .phone {
-    display: flex;
-    align-items: center;
-  }
-
-  .fa-mobile-alt {
-    margin-right: 1rem;
   }
 
   .email {
@@ -85,9 +76,6 @@
       transform: translateX(0px);
     }
   }
-}
-
-@media screen and (max-width: 1260px) {
 }
 
 @media screen and (max-width: 768px) {

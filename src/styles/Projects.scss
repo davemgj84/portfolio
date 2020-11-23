@@ -91,7 +91,7 @@
     margin-bottom: 1rem;
     transition: ease-in-out 0.3s;
     list-style: disc;
-    list-style-position: inside;
+    margin-left: 1.25rem;
   }
 
   .thumbnail {
@@ -205,8 +205,5 @@
 @media screen and (max-width: 280px) {
   .projects .name-desc {
     max-width: 220px;
-  }
-  .projects li {
-    list-style: none;
   }
 }
