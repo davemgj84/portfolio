@@ -1,15 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import openNav from "../helpers/openNav";
 import closeNav from "../helpers/closeNav";
-import cursorAnimation from "../helpers/cursorAnimation";
 import "../styles/Nav.scss";
 
 const Nav = () => {
-  useEffect(() => {
-    cursorAnimation();
-  }, []);
-
   return (
     <>
       <nav>
@@ -17,8 +12,7 @@ const Nav = () => {
           <h4>
             <Link to={"/about"}>
               &lt; D<span className="shorten-name">avid</span> J
-              <span className="shorten-name">ardine</span> / &gt;{" "}
-              <span id="cursor">|</span>
+              <span className="shorten-name">ardine</span> / &gt;
             </Link>
           </h4>
         </div>

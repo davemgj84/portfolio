@@ -4,11 +4,6 @@ nav {
   align-items: center;
   height: 90px;
   background-color: #1e3857;
-  // background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
-  // background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
-  // background-image: url("https://www.transparenttextures.com/patterns/soft-kill.png");
-  // background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
-  // background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
   z-index: 1;
   top: 0;
   width: 100%;
@@ -26,16 +21,16 @@ nav {
     }
   }
 
-  #cursor {
-    color: #d9dcdf;
-    font-size: 30px;
-  }
+  // #cursor {
+  //   color: #d9dcdf;
+  //   font-size: 30px;
+  // }
 
   .logo:hover {
     color: #78879a;
-    #cursor {
-      color: #78879a;
-    }
+    // #cursor {
+    //   color: #78879a;
+    // }
   }
 
   .nav-links {
