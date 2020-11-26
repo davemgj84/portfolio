@@ -8,6 +8,8 @@
 
 - The project itself also showcases the use of React, React-Router,React-Progressive-Graceful-Image, React-Spring and SASS.
 
+- The live website can be visited here - https://www.djardine.com
+
 ## Installation
 
 - Clone this repo and cd into the project folder.
