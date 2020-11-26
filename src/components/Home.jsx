@@ -1,15 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/About.scss";
+import ProgressiveImage from "react-progressive-graceful-image";
+import "../styles/Home.scss";
 import profile from "../assets/profile.png";
+import profileLow from "../assets/profileLow.jpg";
 
-const About = () => {
+const Home = () => {
   return (
     <>
-      <section className="about">
+      <section className="home">
         <div className="container">
           <div>
-            <img className="profile-image" src={profile} alt="David" />
+            <ProgressiveImage src={profile} placeholder={profileLow}>
+              {(src, loading) => (
+                <img
+                  style={{ opacity: loading ? 0.5 : 1 }}
+                  className="profile-image"
+                  src={src}
+                  alt="David"
+                />
+              )}
+            </ProgressiveImage>
+            {/* <img className="profile-image" src={profile} alt="David" /> */}
           </div>
           <div className="bio">
             <h1>David Jardine</h1>
@@ -31,4 +43,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;

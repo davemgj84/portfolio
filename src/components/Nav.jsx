@@ -10,7 +10,7 @@ const Nav = () => {
       <nav>
         <div className="logo">
           <h4>
-            <Link to={"/about"}>
+            <Link to={"/home"}>
               &lt; D<span className="shorten-name">avid</span> J
               <span className="shorten-name">ardine</span> / &gt;
             </Link>
@@ -18,8 +18,8 @@ const Nav = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <Link onClick={() => closeNav()} to={"/about"}>
-              About
+            <Link onClick={() => closeNav()} to={"/home"}>
+              Home
             </Link>
           </li>
           <li>

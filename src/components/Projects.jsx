@@ -1,9 +1,14 @@
 import React from "react";
+import ProgressiveImage from "react-progressive-graceful-image";
 import "../styles/Projects.scss";
 import sapphire from "../assets/sapphire.png";
+import sapphireLow from "../assets/sapphireLow.jpg";
 import scheduler from "../assets/scheduler.png";
+import schedulerLow from "../assets/schedulerLow.jpg";
 import wikiMaps from "../assets/wikiMaps.png";
+import wikiMapsLow from "../assets/wikiMapsLow.jpg";
 import tweeter from "../assets/tweeter.png";
+import tweeterLow from "../assets/tweeterLow.jpg";
 
 const Projects = () => {
   return (
@@ -40,7 +45,16 @@ const Projects = () => {
                 target="_blank"
                 href="https://github.com/davemgj84/sapphire"
               >
-                <img className="thumbnail" src={sapphire} alt="Sapphire" />
+                <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
+                  {(src, loading) => (
+                    <img
+                      style={{ opacity: loading ? 0.5 : 1 }}
+                      className="thumbnail"
+                      src={src}
+                      alt="Sapphire"
+                    />
+                  )}
+                </ProgressiveImage>
               </a>
             </div>
             <hr className="divider" />
@@ -72,7 +86,16 @@ const Projects = () => {
                 target="_blank"
                 href="https://github.com/davemgj84/scheduler"
               >
-                <img className="thumbnail" src={scheduler} alt="Scheduler" />
+                <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
+                  {(src, loading) => (
+                    <img
+                      style={{ opacity: loading ? 0.5 : 1 }}
+                      className="thumbnail"
+                      src={src}
+                      alt="Sapphire"
+                    />
+                  )}
+                </ProgressiveImage>
               </a>
             </div>
           </section>
@@ -105,7 +128,16 @@ const Projects = () => {
                 target="_blank"
                 href="https://github.com/davemgj84/wiki-maps"
               >
-                <img className="thumbnail" src={wikiMaps} alt="Wiki-Maps" />
+                <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
+                  {(src, loading) => (
+                    <img
+                      style={{ opacity: loading ? 0.5 : 1 }}
+                      className="thumbnail"
+                      src={src}
+                      alt="Sapphire"
+                    />
+                  )}
+                </ProgressiveImage>
               </a>
             </div>
             <hr className="divider" />
@@ -135,7 +167,16 @@ const Projects = () => {
                 target="_blank"
                 href="https://github.com/davemgj84/tweeter"
               >
-                <img className="thumbnail" src={tweeter} alt="Tweeter" />
+                <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
+                  {(src, loading) => (
+                    <img
+                      style={{ opacity: loading ? 0.5 : 1 }}
+                      className="thumbnail"
+                      src={src}
+                      alt="Sapphire"
+                    />
+                  )}
+                </ProgressiveImage>
               </a>
             </div>
             <hr className="divider" />
