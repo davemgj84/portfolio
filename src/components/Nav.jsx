@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import openNav from "../helpers/openNav";
 import closeNav from "../helpers/closeNav";
 import "../styles/Nav.scss";
@@ -18,24 +18,52 @@ const Nav = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <Link onClick={() => closeNav()} to={"/home"}>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "#4a5f78",
+                color: "#ffffff",
+              }}
+              onClick={() => closeNav()}
+              to={"/home"}
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={() => closeNav()} to={"/skills"}>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "#4a5f78",
+                color: "#ffffff",
+              }}
+              onClick={() => closeNav()}
+              to={"/skills"}
+            >
               Skills
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={() => closeNav()} to={"/projects"}>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "#4a5f78",
+                color: "#ffffff",
+              }}
+              onClick={() => closeNav()}
+              to={"/projects"}
+            >
               Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={() => closeNav()} to={"/contact"}>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "#4a5f78",
+                color: "#ffffff",
+              }}
+              onClick={() => closeNav()}
+              to={"/contact"}
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <div onClick={() => openNav()} className="burger">
