@@ -38,7 +38,14 @@
     letter-spacing: 1px;
     margin-bottom: 2rem;
     transition: ease-in-out 0.3s;
+    text-decoration: underline;
 
+    .fas {
+      margin-right: 0.5rem;
+    }
+    .far {
+      margin-right: 0.5rem;
+    }
     a {
       color: inherit;
     }
@@ -47,7 +54,6 @@
   h2:hover {
     color: #304149;
     text-shadow: 2px 2px 1px #b4b1a6;
-    text-decoration: underline;
   }
 
   .divider {
@@ -96,7 +102,7 @@
 
   .thumbnail {
     width: 100%;
-    max-width: 360px;
+    width: 360px;
     height: auto;
     border-radius: 10px;
     cursor: pointer;
@@ -158,10 +164,6 @@
     font-size: 18px;
     line-height: 28px;
   }
-
-  .projects .thumbnail {
-    max-width: 360px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -192,7 +194,7 @@
   }
 
   .projects .thumbnail {
-    max-width: 250px;
+    width: 250px;
   }
 }
 

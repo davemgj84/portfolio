@@ -1,5 +1,6 @@
 import React from "react";
 import ProgressiveImage from "react-progressive-graceful-image";
+import ModalImage from "react-modal-image";
 import "../styles/Projects.scss";
 import sapphire from "../assets/sapphire.jpg";
 import sapphireLow from "../assets/sapphireLow.jpg";
@@ -21,12 +22,12 @@ const Projects = () => {
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i className="fas fa-gamepad"></i>{" "}
                   <a
                     rel="noreferrer"
                     target="_blank"
                     href="https://github.com/davemgj84/sapphire"
                   >
+                    <i className="fas fa-gamepad"></i>
                     Sapphire
                   </a>
                 </h2>
@@ -40,30 +41,30 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/davemgj84/sapphire"
-              >
-                <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
-                  {(src) => (
-                    <img className="thumbnail" src={src} alt="Sapphire" />
-                  )}
-                </ProgressiveImage>
-              </a>
+              <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
+                {(src) => (
+                  <ModalImage
+                    className="thumbnail"
+                    small={src}
+                    large={src}
+                    alt="Sapphire"
+                    hideDownload={true}
+                    hideZoom={true}
+                  />
+                )}
+              </ProgressiveImage>
             </div>
             <hr className="divider" />
 
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i className="far fa-calendar-alt"></i>
                   <a
                     rel="noreferrer"
                     target="_blank"
                     href="https://github.com/davemgj84/scheduler"
                   >
-                    {" "}
+                    <i className="far fa-calendar-alt"></i>
                     Scheduler
                   </a>
                 </h2>
@@ -76,17 +77,18 @@ const Projects = () => {
                   <li>Tech Stack: React, Sass, and Axios</li>
                 </ul>
               </div>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/davemgj84/scheduler"
-              >
-                <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
-                  {(src) => (
-                    <img className="thumbnail" src={src} alt="Sapphire" />
-                  )}
-                </ProgressiveImage>
-              </a>
+              <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
+                {(src) => (
+                  <ModalImage
+                    className="thumbnail"
+                    small={src}
+                    large={src}
+                    alt="Scheduler"
+                    hideDownload={true}
+                    hideZoom={true}
+                  />
+                )}
+              </ProgressiveImage>
             </div>
           </section>
           <section className="bottom-two">
@@ -95,13 +97,12 @@ const Projects = () => {
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i className="fas fa-map-marker-alt"></i>
                   <a
                     rel="noreferrer"
                     target="_blank"
                     href="https://github.com/davemgj84/wiki-maps"
                   >
-                    {" "}
+                    <i className="fas fa-map-marker-alt"></i>
                     Wiki-Maps
                   </a>
                 </h2>
@@ -113,30 +114,30 @@ const Projects = () => {
                   <li>Tech Stack: Express, Node, EJS, PG, Sass</li>
                 </ul>
               </div>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/davemgj84/wiki-maps"
-              >
-                <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
-                  {(src) => (
-                    <img className="thumbnail" src={src} alt="Sapphire" />
-                  )}
-                </ProgressiveImage>
-              </a>
+              <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
+                {(src) => (
+                  <ModalImage
+                    className="thumbnail"
+                    small={src}
+                    large={src}
+                    alt="Wiki-Maps"
+                    hideDownload={true}
+                    hideZoom={true}
+                  />
+                )}
+              </ProgressiveImage>
             </div>
             <hr className="divider" />
 
             <div className="project-block">
               <div className="name-desc">
                 <h2>
-                  <i className="fas fa-retweet"></i>
                   <a
                     rel="noreferrer"
                     target="_blank"
                     href="https://github.com/davemgj84/tweeter"
                   >
-                    {" "}
+                    <i className="fas fa-retweet"></i>
                     Tweeter
                   </a>
                 </h2>
@@ -147,17 +148,18 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/davemgj84/tweeter"
-              >
-                <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
-                  {(src) => (
-                    <img className="thumbnail" src={src} alt="Sapphire" />
-                  )}
-                </ProgressiveImage>
-              </a>
+              <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
+                {(src) => (
+                  <ModalImage
+                    className="thumbnail"
+                    small={src}
+                    large={src}
+                    alt="Tweeter"
+                    hideDownload={true}
+                    hideZoom={true}
+                  />
+                )}
+              </ProgressiveImage>
             </div>
             <hr className="divider" />
           </section>
