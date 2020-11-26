@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProgressiveImage from "react-progressive-graceful-image";
 import "../styles/Home.scss";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 import profileLow from "../assets/profileLow.jpg";
 
 const Home = () => {

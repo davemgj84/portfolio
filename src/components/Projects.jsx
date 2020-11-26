@@ -1,11 +1,11 @@
 import React from "react";
 import ProgressiveImage from "react-progressive-graceful-image";
 import "../styles/Projects.scss";
-import sapphire from "../assets/sapphire.png";
+import sapphire from "../assets/sapphire.jpg";
 import sapphireLow from "../assets/sapphireLow.jpg";
 import scheduler from "../assets/scheduler.png";
 import schedulerLow from "../assets/schedulerLow.jpg";
-import wikiMaps from "../assets/wikiMaps.png";
+import wikiMaps from "../assets/wikiMaps.jpg";
 import wikiMapsLow from "../assets/wikiMapsLow.jpg";
 import tweeter from "../assets/tweeter.png";
 import tweeterLow from "../assets/tweeterLow.jpg";

@@ -14,13 +14,13 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
-  function _ScrollToTop(props) {
+  const _ScrollToTop = (props) => {
     const { pathname } = useLocation();
     useEffect(() => {
       window.scrollTo(0, 0);
     }, [pathname]);
     return props.children;
-  }
+  };
   const ScrollToTop = withRouter(_ScrollToTop);
 
   return (
