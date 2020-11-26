@@ -6,7 +6,7 @@
 
 - All of the projects link to repos on my Github.
 
-- The project itself also showcases the use of React, React-Router,React-Progressive-Graceful-Image, React-Spring and SASS.
+- The project itself also showcases the use of React, React-Router, React-Progressive-Graceful-Image, React-Spring and Sass.
 
 - The live website can be visited here - https://www.djardine.com
 
