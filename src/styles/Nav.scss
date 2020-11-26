@@ -4,6 +4,7 @@ nav {
   align-items: center;
   height: 90px;
   background-color: #1e3857;
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
   z-index: 1;
   top: 0;
   width: 100%;
@@ -16,7 +17,7 @@ nav {
     font-size: 30px;
     transition: ease-in-out 0.3s;
     &:hover {
-      color: #78879a;
+      color: #8e9bab;
     }
 
     a {
@@ -29,7 +30,7 @@ nav {
     justify-content: space-around;
     z-index: 1;
     transition: ease-in-out 0.3s;
-    width: 33%;
+    width: 40%;
   }
 
   .nav-links a {
@@ -37,13 +38,13 @@ nav {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 18px;
-    padding: 0.5rem;
+    padding: 0.3rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-radius: 5px;
+    border-radius: 6px;
     transition: ease-in-out 0.3s;
     &:hover {
-      background-color: #4a5f78;
+      background-color: rgba(92, 111, 133, 0.4);
       color: #ffffff;
     }
   }
@@ -80,6 +81,9 @@ nav {
       height: 100vh;
       top: 90px;
       background-color: #1e3857;
+      background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+      background-position: 0 0;
+      background-attachment: fixed;
       flex-direction: column;
       align-items: center;
       width: 50%;
