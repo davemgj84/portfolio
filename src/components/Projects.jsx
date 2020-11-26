@@ -46,13 +46,8 @@ const Projects = () => {
                 href="https://github.com/davemgj84/sapphire"
               >
                 <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
-                  {(src, loading) => (
-                    <img
-                      style={{ opacity: loading ? 0.5 : 1 }}
-                      className="thumbnail"
-                      src={src}
-                      alt="Sapphire"
-                    />
+                  {(src) => (
+                    <img className="thumbnail" src={src} alt="Sapphire" />
                   )}
                 </ProgressiveImage>
               </a>
@@ -87,13 +82,8 @@ const Projects = () => {
                 href="https://github.com/davemgj84/scheduler"
               >
                 <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
-                  {(src, loading) => (
-                    <img
-                      style={{ opacity: loading ? 0.5 : 1 }}
-                      className="thumbnail"
-                      src={src}
-                      alt="Sapphire"
-                    />
+                  {(src) => (
+                    <img className="thumbnail" src={src} alt="Sapphire" />
                   )}
                 </ProgressiveImage>
               </a>
@@ -129,13 +119,8 @@ const Projects = () => {
                 href="https://github.com/davemgj84/wiki-maps"
               >
                 <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
-                  {(src, loading) => (
-                    <img
-                      style={{ opacity: loading ? 0.5 : 1 }}
-                      className="thumbnail"
-                      src={src}
-                      alt="Sapphire"
-                    />
+                  {(src) => (
+                    <img className="thumbnail" src={src} alt="Sapphire" />
                   )}
                 </ProgressiveImage>
               </a>
@@ -168,13 +153,8 @@ const Projects = () => {
                 href="https://github.com/davemgj84/tweeter"
               >
                 <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
-                  {(src, loading) => (
-                    <img
-                      style={{ opacity: loading ? 0.5 : 1 }}
-                      className="thumbnail"
-                      src={src}
-                      alt="Sapphire"
-                    />
+                  {(src) => (
+                    <img className="thumbnail" src={src} alt="Sapphire" />
                   )}
                 </ProgressiveImage>
               </a>
