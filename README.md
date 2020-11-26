@@ -23,6 +23,7 @@
 - React-Spring
 - React-Progressive-Graceful-Image
 - React-Modal-Image
+- Node-Sass
 
 ## Screenshots
 
