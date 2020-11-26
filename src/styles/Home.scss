@@ -51,6 +51,11 @@
         font-family: "Source Sans Pro", sans-serif;
         text-decoration: underline;
         color: #344b67;
+        transition: ease-in-out 0.2s;
+        &:hover {
+          color: #2e435c;
+          text-shadow: 1px 1px 1px #b4b1a6;
+        }
       }
     }
   }

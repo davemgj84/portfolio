@@ -39,6 +39,10 @@
     margin-bottom: 2rem;
     transition: ease-in-out 0.3s;
     text-decoration: underline;
+    &:hover {
+      color: #304149;
+      text-shadow: 2px 2px 1px #b4b1a6;
+    }
 
     .fas {
       margin-right: 0.5rem;
@@ -49,11 +53,6 @@
     a {
       color: inherit;
     }
-  }
-
-  h2:hover {
-    color: #304149;
-    text-shadow: 2px 2px 1px #b4b1a6;
   }
 
   .divider {
@@ -108,10 +107,9 @@
     cursor: pointer;
     transition: ease-in-out 0.3s;
     margin: 1rem;
-  }
-
-  .thumbnail:hover {
-    opacity: 0.8;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   @keyframes fadeInSlide {

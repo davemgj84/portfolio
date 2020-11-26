@@ -15,22 +15,13 @@ nav {
     letter-spacing: 5px;
     font-size: 30px;
     transition: ease-in-out 0.3s;
+    &:hover {
+      color: #78879a;
+    }
 
     a {
       color: inherit;
     }
-  }
-
-  // #cursor {
-  //   color: #d9dcdf;
-  //   font-size: 30px;
-  // }
-
-  .logo:hover {
-    color: #78879a;
-    // #cursor {
-    //   color: #78879a;
-    // }
   }
 
   .nav-links {
@@ -50,12 +41,11 @@ nav {
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 5px;
-    transition: ease-in-out 0.2s;
-  }
-
-  .nav-links a:hover {
-    background-color: #4a5f78;
-    color: #ffffff;
+    transition: ease-in-out 0.3s;
+    &:hover {
+      background-color: #4a5f78;
+      color: #ffffff;
+    }
   }
 
   .burger {
@@ -90,7 +80,6 @@ nav {
       height: 100vh;
       top: 90px;
       background-color: #1e3857;
-      // background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
       flex-direction: column;
       align-items: center;
       width: 50%;

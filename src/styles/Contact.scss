@@ -32,11 +32,10 @@
   h3 {
     margin: 1.5rem;
     transition: ease-in-out 0.3s;
-  }
-
-  h3:hover {
-    color: #304149;
-    text-shadow: 2px 2px 1px #b4b1a6;
+    &:hover {
+      color: #304149;
+      text-shadow: 2px 2px 1px #b4b1a6;
+    }
   }
 
   .email {
