@@ -19,10 +19,10 @@
 ## Dependencies
 
 - React
-- React-Dom
 - React-Router-Dom
-- React-Progressive-Graceful-Image
 - React-Spring
+- React-Progressive-Graceful-Image
+- React-Modal-Image
 
 ## Screenshots
 
