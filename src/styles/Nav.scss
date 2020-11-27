@@ -14,7 +14,7 @@ nav {
     color: #d9dcdf;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 30px;
+    font-size: 32px;
     transition: ease-in-out 0.3s;
     &:hover {
       color: #8e9bab;
@@ -64,7 +64,7 @@ nav {
 
   @media screen and (max-width: 1024px) {
     .logo {
-      font-size: 21px;
+      font-size: 24px;
     }
     .nav-links {
       width: 50%;
@@ -105,15 +105,21 @@ nav {
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 420px) {
     .logo {
-      font-size: 16px;
+      font-size: 21px;
     }
     .logo .shorten-name {
       display: none;
     }
-    #cursor {
-      font-size: 16px;
+    .burger {
+      transform: scale(0.9);
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .logo {
+      font-size: 18px;
     }
   }
 

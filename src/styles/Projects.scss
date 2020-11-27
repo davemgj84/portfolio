@@ -1,6 +1,5 @@
 .projects {
   width: 100%;
-  height: 100vh;
   padding-top: 90px;
   display: flex;
   justify-content: center;
@@ -10,20 +9,11 @@
   transition: ease-in-out 0.3s;
 
   h1 {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 90px;
     font-size: 48px;
     letter-spacing: 2px;
     color: #304149;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #e2ded0;
-    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
-    background-position: 0 0;
-    background-attachment: fixed;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     transition: ease-in-out 0.3s;
   }
 
@@ -132,6 +122,11 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .projects h1 {
+    margin-bottom: 1rem;
+  }
+
   .projects .name-desc {
     display: flex;
     flex-direction: column;
@@ -149,6 +144,7 @@
 @media screen and (max-width: 1024px) {
   .projects h1 {
     font-size: 42px;
+    // margin-bottom: 0;
   }
 
   .projects h2 {
@@ -166,17 +162,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  .projects h1 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 }
 
 @media screen and (max-width: 540px) {
   .projects h1 {
     font-size: 38px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .projects h2 {
