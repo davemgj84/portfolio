@@ -44,7 +44,7 @@
     margin-top: 2rem;
 
     h2 {
-      font-size: 42px;
+      font-size: 38px;
       letter-spacing: 2px;
       color: #304149;
       margin-bottom: 2rem;
@@ -53,8 +53,7 @@
     .main {
       align-self: center;
       color: #44545b;
-      font-size: 32px;
-      margin-bottom: 1rem;
+      font-size: 27px;
     }
 
     .h-divider {
@@ -62,7 +61,7 @@
       height: 1px;
       background-color: #8a9398;
       align-self: center;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
       border-width: 0;
       border-style: none;
     }
@@ -70,9 +69,8 @@
     .secondary {
       align-self: center;
       color: #44545b;
-      font-size: 32px;
+      font-size: 27px;
       margin-top: 2rem;
-      margin-bottom: 1rem;
     }
 
     .secondary-container {
@@ -81,7 +79,7 @@
 
     .subtitle {
       color: #44545b;
-      font-size: 28px;
+      font-size: 24px;
       align-self: flex-start;
       margin-top: 1rem;
     }
@@ -101,7 +99,7 @@
 
   .education-experience {
     width: 50%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +110,7 @@
       height: 1px;
       background-color: #8a9398;
       align-self: center;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
       border-width: 0;
       border-style: none;
     }
@@ -125,9 +123,20 @@
     flex-direction: column;
     align-items: center;
 
+    .education-container {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+      }
+    }
+
     h2 {
-      margin-bottom: 1rem;
-      font-size: 42px;
+      font-size: 38px;
       letter-spacing: 2px;
       color: #304149;
     }
@@ -135,24 +144,24 @@
     .school {
       align-self: center;
       color: #44545b;
-      font-size: 32px;
+      font-size: 27px;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
 
     .credentials {
       font-family: "Source Sans Pro", sans-serif;
-      line-height: 28px;
+      line-height: 20px;
       font-weight: normal;
       color: #59666d;
-      font-size: 24px;
+      font-size: 20px;
       margin-bottom: 0.25rem;
     }
 
     .date {
       font-family: "Source Sans Pro", sans-serif;
       color: #59666d;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: normal;
     }
   }
@@ -165,7 +174,7 @@
     align-items: center;
 
     h2 {
-      font-size: 42px;
+      font-size: 38px;
       letter-spacing: 2px;
       color: #304149;
       margin-top: 2rem;
@@ -176,7 +185,6 @@
       display: flex;
       justify-content: space-evenly;
       width: 100%;
-      margin-bottom: 2rem;
     }
 
     .job {
@@ -189,7 +197,7 @@
     h3 {
       align-self: center;
       color: #44545b;
-      font-size: 32px;
+      font-size: 27px;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
@@ -199,7 +207,7 @@
       font-weight: normal;
       align-self: flex-start;
       color: #44545b;
-      font-size: 21px;
+      font-size: 20px;
       line-height: 32px;
     }
 
@@ -208,7 +216,7 @@
       align-self: flex-start;
       color: #59666d;
       font-size: 18px;
-      line-height: 32px;
+      line-height: 24px;
       margin-top: 1rem;
       list-style: disc;
       margin-left: 1.25rem;
@@ -219,64 +227,25 @@
 @media screen and (max-width: 1700px) {
   .skills-container {
     .skills {
-      h2 {
-        font-size: 38px;
-      }
-      .main {
-        font-size: 27px;
-      }
-      .secondary {
-        font-size: 27px;
-      }
-      .subtitle {
-        font-size: 24px;
-      }
       li {
         width: 580px;
-      }
-    }
-
-    .education {
-      h2 {
-        font-size: 38px;
-      }
-      .school {
-        font-size: 27px;
-      }
-      .credentials {
-        font-size: 20px;
-      }
-      .date {
-        font-size: 18px;
-      }
-    }
-
-    .experience {
-      h2 {
-        font-size: 38px;
-      }
-      h3 {
-        font-size: 27px;
-      }
-      h4 {
-        font-size: 18px;
-      }
-      li {
-        font-size: 18px;
-        line-height: 24px;
       }
     }
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
   .skills-container {
     justify-content: center;
     flex-direction: column;
 
     .skills,
     .education-experience {
+      height: 100%;
       width: 100%;
+      .h-divider {
+        margin-top: 2rem;
+      }
     }
 
     .v-divider {
@@ -289,6 +258,15 @@
 
     .skills {
       height: 100%;
+      .main {
+        margin-bottom: 1rem;
+      }
+      .h-divider {
+        margin-top: 2rem;
+      }
+      .secondary {
+        margin-bottom: 1rem;
+      }
       li {
         width: 760px;
       }
@@ -301,6 +279,18 @@
 
     .education {
       height: 50%;
+      .education-container {
+        flex-direction: column;
+        align-items: flex-start;
+        div {
+          margin: 0;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+      .school {
+        margin-top: 2rem;
+      }
       div {
         width: 780px;
       }
@@ -311,7 +301,7 @@
 
     .experience-container {
       flex-direction: column;
-      padding-bottom: 2rem;
+      margin-bottom: 2rem;
     }
 
     .experience {
@@ -433,7 +423,7 @@
         font-size: 24px;
       }
       h4 {
-        font-size: 16px;
+        font-size: 18px;
       }
       li {
         font-size: 16px;
@@ -447,10 +437,12 @@
   .skills-container .skills li {
     width: 290px;
   }
+  .skills-container .experience h4 {
+    font-size: 16px;
+  }
   .skills-container .experience li {
     width: 290px;
   }
-
   .skills-container .education div {
     width: 290px;
   }

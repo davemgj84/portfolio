@@ -22,9 +22,11 @@ const Skills = () => {
             </ul>
             <h3 className="subtitle">Testing</h3>
             <ul>
-              <li>
-                Jest, Storybook, Cypress, Mocha/Chai Systems/Databases: SQL
-              </li>
+              <li>Jest, Storybook, Cypress, Mocha/Chai</li>
+            </ul>
+            <h3 className="subtitle">Systems/Databases</h3>
+            <ul>
+              <li>PostgreSQL, MongoDB</li>
             </ul>
           </div>
           <hr className="h-divider" />
@@ -45,13 +47,17 @@ const Skills = () => {
         <section className="education-experience">
           <section className="education">
             <h2>Education</h2>
-            <div>
-              <h3 className="school">Lighthouse Labs</h3>
-              <h4 className="credentials">Web Development Diploma</h4>
-              <h4 className="date">November 2020</h4>
-              <h3 className="school">Langara College</h3>
-              <h4 className="credentials">Fine Arts Diploma</h4>
-              <h4 className="date">June 2019</h4>
+            <div className="education-container">
+              <div>
+                <h3 className="school">Lighthouse Labs</h3>
+                <h4 className="credentials">Web Development Diploma</h4>
+                <h4 className="date">November 2020</h4>
+              </div>
+              <div>
+                <h3 className="school">Langara College</h3>
+                <h4 className="credentials">Fine Arts Diploma</h4>
+                <h4 className="date">June 2019</h4>
+              </div>
             </div>
           </section>
           <hr className="h-divider" />
