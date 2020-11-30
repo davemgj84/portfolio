@@ -116,7 +116,6 @@
 }
 
 @media screen and (max-width: 1700px) {
-  .project-block,
   .top-two,
   .bottom-two {
     flex-direction: column;
@@ -161,7 +160,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .project-block {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 540px) {
