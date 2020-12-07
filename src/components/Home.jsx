@@ -11,9 +11,10 @@ const Home = () => {
       <section className="home">
         <div className="container">
           <div>
-            <ProgressiveImage src={profile} placeholder={profileLow}>
+            {/* <ProgressiveImage src={profile} placeholder={profileLow}>
               {(src) => <img className="profile-image" src={src} alt="David" />}
-            </ProgressiveImage>
+            </ProgressiveImage> */}
+            <img className="profile-image" src={profile} alt="David" />
           </div>
           <div className="bio">
             <h1>David Jardine</h1>
