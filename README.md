@@ -21,8 +21,7 @@
 - React
 - React-Router-Dom
 - React-Spring
-- React-Progressive-Graceful-Image
-- React-Modal-Image
+- React-Lazy-Load-Image-Component
 - Node-Sass
 
 ## Screenshots
