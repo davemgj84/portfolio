@@ -2,13 +2,9 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Projects.scss";
 import sapphire from "../assets/sapphire.jpg";
-// import sapphireLow from "../assets/sapphireLow.jpg";
 import scheduler from "../assets/scheduler.jpg";
-// import schedulerLow from "../assets/schedulerLow.jpg";
 import wikiMaps from "../assets/wikiMaps.jpg";
-// import wikiMapsLow from "../assets/wikiMapsLow.jpg";
 import tweeter from "../assets/tweeter.jpg";
-// import tweeterLow from "../assets/tweeterLow.jpg";
 
 const Projects = () => {
   return (

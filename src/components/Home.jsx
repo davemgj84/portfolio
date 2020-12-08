@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Home.scss";
 import profile from "../assets/profile.jpg";
-// import profileLow from "../assets/profileLow.jpg";
 
 const Home = () => {
   return (
