@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import ProgressiveImage from "react-progressive-graceful-image";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Home.scss";
 import profile from "../assets/profile.jpg";
 // import profileLow from "../assets/profileLow.jpg";
@@ -11,10 +11,11 @@ const Home = () => {
       <section className="home">
         <div className="container">
           <div>
-            {/* <ProgressiveImage src={profile} placeholder={profileLow}>
-              {(src) => <img className="profile-image" src={src} alt="David" />}
-            </ProgressiveImage> */}
-            <img className="profile-image" src={profile} alt="David" />
+            <LazyLoadImage
+              className="profile-image"
+              alt="David"
+              src={profile}
+            />
           </div>
           <div className="bio">
             <h1>David Jardine</h1>

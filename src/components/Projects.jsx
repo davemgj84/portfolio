@@ -1,6 +1,5 @@
 import React from "react";
-// import ProgressiveImage from "react-progressive-graceful-image";
-import ModalImage from "react-modal-image";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Projects.scss";
 import sapphire from "../assets/sapphire.jpg";
 // import sapphireLow from "../assets/sapphireLow.jpg";
@@ -41,18 +40,11 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              {/* <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
-                {(src) => ( */}
-              <ModalImage
+              <LazyLoadImage
                 className="thumbnail"
-                small={sapphire}
-                large={sapphire}
                 alt="Sapphire"
-                hideDownload={true}
-                hideZoom={true}
+                src={sapphire}
               />
-              {/* )} */}
-              {/* </ProgressiveImage> */}
             </div>
             <hr className="divider" />
 
@@ -77,18 +69,11 @@ const Projects = () => {
                   <li>Tech Stack: React, Sass, and Axios</li>
                 </ul>
               </div>
-              {/* <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
-                {(src) => ( */}
-              <ModalImage
+              <LazyLoadImage
                 className="thumbnail"
-                small={scheduler}
-                large={scheduler}
                 alt="Scheduler"
-                hideDownload={true}
-                hideZoom={true}
+                src={scheduler}
               />
-              {/* )}
-              </ProgressiveImage> */}
             </div>
           </section>
           <section className="bottom-two">
@@ -114,18 +99,11 @@ const Projects = () => {
                   <li>Tech Stack: Express, Node, EJS, PG, Sass</li>
                 </ul>
               </div>
-              {/* <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
-                {(src) => ( */}
-              <ModalImage
+              <LazyLoadImage
                 className="thumbnail"
-                small={wikiMaps}
-                large={wikiMaps}
                 alt="Wiki-Maps"
-                hideDownload={true}
-                hideZoom={true}
+                src={wikiMaps}
               />
-              {/* )}
-              </ProgressiveImage> */}
             </div>
             <hr className="divider" />
 
@@ -148,18 +126,11 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              {/* <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
-                {(src) => ( */}
-              <ModalImage
+              <LazyLoadImage
                 className="thumbnail"
-                small={tweeter}
-                large={tweeter}
                 alt="Tweeter"
-                hideDownload={true}
-                hideZoom={true}
+                src={tweeter}
               />
-              {/* )}
-              </ProgressiveImage> */}
             </div>
             <hr className="divider" />
           </section>
