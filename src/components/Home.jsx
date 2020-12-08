@@ -25,9 +25,10 @@ const Home = () => {
               interactive projects and collaborating with a team. I enjoy
               critical thinking, problem solving, and creativity in my work. I
               recently finished the Web Development Bootcamp at Lighthouse Labs
-              and am eager to begin my journey as a developer. Check out my{" "}
+              and am eager to begin my journey as a developer.
+              {/* Check out my{" "}
               <Link to={"/projects"}>projects</Link> and{" "}
-              <Link to={"/contact"}>contact</Link> me today!
+              <Link to={"/contact"}>contact</Link> me today! */}
             </p>
           </div>
         </div>
