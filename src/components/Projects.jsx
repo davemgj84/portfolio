@@ -1,15 +1,15 @@
 import React from "react";
-import ProgressiveImage from "react-progressive-graceful-image";
+// import ProgressiveImage from "react-progressive-graceful-image";
 import ModalImage from "react-modal-image";
 import "../styles/Projects.scss";
 import sapphire from "../assets/sapphire.jpg";
-import sapphireLow from "../assets/sapphireLow.jpg";
+// import sapphireLow from "../assets/sapphireLow.jpg";
 import scheduler from "../assets/scheduler.jpg";
-import schedulerLow from "../assets/schedulerLow.jpg";
+// import schedulerLow from "../assets/schedulerLow.jpg";
 import wikiMaps from "../assets/wikiMaps.jpg";
-import wikiMapsLow from "../assets/wikiMapsLow.jpg";
+// import wikiMapsLow from "../assets/wikiMapsLow.jpg";
 import tweeter from "../assets/tweeter.jpg";
-import tweeterLow from "../assets/tweeterLow.jpg";
+// import tweeterLow from "../assets/tweeterLow.jpg";
 
 const Projects = () => {
   return (
@@ -41,18 +41,18 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
-                {(src) => (
-                  <ModalImage
-                    className="thumbnail"
-                    small={src}
-                    large={src}
-                    alt="Sapphire"
-                    hideDownload={true}
-                    hideZoom={true}
-                  />
-                )}
-              </ProgressiveImage>
+              {/* <ProgressiveImage src={sapphire} placeholder={sapphireLow}>
+                {(src) => ( */}
+              <ModalImage
+                className="thumbnail"
+                small={sapphire}
+                large={sapphire}
+                alt="Sapphire"
+                hideDownload={true}
+                hideZoom={true}
+              />
+              {/* )} */}
+              {/* </ProgressiveImage> */}
             </div>
             <hr className="divider" />
 
@@ -77,18 +77,18 @@ const Projects = () => {
                   <li>Tech Stack: React, Sass, and Axios</li>
                 </ul>
               </div>
-              <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
-                {(src) => (
-                  <ModalImage
-                    className="thumbnail"
-                    small={src}
-                    large={src}
-                    alt="Scheduler"
-                    hideDownload={true}
-                    hideZoom={true}
-                  />
-                )}
-              </ProgressiveImage>
+              {/* <ProgressiveImage src={scheduler} placeholder={schedulerLow}>
+                {(src) => ( */}
+              <ModalImage
+                className="thumbnail"
+                small={scheduler}
+                large={scheduler}
+                alt="Scheduler"
+                hideDownload={true}
+                hideZoom={true}
+              />
+              {/* )}
+              </ProgressiveImage> */}
             </div>
           </section>
           <section className="bottom-two">
@@ -114,18 +114,18 @@ const Projects = () => {
                   <li>Tech Stack: Express, Node, EJS, PG, Sass</li>
                 </ul>
               </div>
-              <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
-                {(src) => (
-                  <ModalImage
-                    className="thumbnail"
-                    small={src}
-                    large={src}
-                    alt="Wiki-Maps"
-                    hideDownload={true}
-                    hideZoom={true}
-                  />
-                )}
-              </ProgressiveImage>
+              {/* <ProgressiveImage src={wikiMaps} placeholder={wikiMapsLow}>
+                {(src) => ( */}
+              <ModalImage
+                className="thumbnail"
+                small={wikiMaps}
+                large={wikiMaps}
+                alt="Wiki-Maps"
+                hideDownload={true}
+                hideZoom={true}
+              />
+              {/* )}
+              </ProgressiveImage> */}
             </div>
             <hr className="divider" />
 
@@ -148,18 +148,18 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
-                {(src) => (
-                  <ModalImage
-                    className="thumbnail"
-                    small={src}
-                    large={src}
-                    alt="Tweeter"
-                    hideDownload={true}
-                    hideZoom={true}
-                  />
-                )}
-              </ProgressiveImage>
+              {/* <ProgressiveImage src={tweeter} placeholder={tweeterLow}>
+                {(src) => ( */}
+              <ModalImage
+                className="thumbnail"
+                small={tweeter}
+                large={tweeter}
+                alt="Tweeter"
+                hideDownload={true}
+                hideZoom={true}
+              />
+              {/* )}
+              </ProgressiveImage> */}
             </div>
             <hr className="divider" />
           </section>
