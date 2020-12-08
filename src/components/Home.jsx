@@ -26,9 +26,6 @@ const Home = () => {
               critical thinking, problem solving, and creativity in my work. I
               recently finished the Web Development Bootcamp at Lighthouse Labs
               and am eager to begin my journey as a developer.
-              {/* Check out my{" "}
-              <Link to={"/projects"}>projects</Link> and{" "}
-              <Link to={"/contact"}>contact</Link> me today! */}
             </p>
           </div>
         </div>
@@ -38,3 +35,7 @@ const Home = () => {
 };
 
 export default Home;
+
+/* Check out my{" "}
+              <Link to={"/projects"}>projects</Link> and{" "}
+              <Link to={"/contact"}>contact</Link> me today! */
