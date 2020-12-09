@@ -2,9 +2,13 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/Projects.scss";
 import sapphire from "../assets/sapphire.jpg";
+import sapphireLow from "../assets/sapphireLow.jpg";
 import scheduler from "../assets/scheduler.jpg";
+import schedulerLow from "../assets/schedulerLow.jpg";
 import wikiMaps from "../assets/wikiMaps.jpg";
+import wikiMapsLow from "../assets/wikiMapsLow.jpg";
 import tweeter from "../assets/tweeter.jpg";
+import tweeterLow from "../assets/tweeterLow.jpg";
 
 const Projects = () => {
   return (
@@ -40,6 +44,8 @@ const Projects = () => {
                 className="thumbnail"
                 alt="Sapphire"
                 src={sapphire}
+                effect="blur"
+                placeholderSrc={sapphireLow}
               />
             </div>
             <hr className="divider" />
@@ -69,6 +75,8 @@ const Projects = () => {
                 className="thumbnail"
                 alt="Scheduler"
                 src={scheduler}
+                effect="blur"
+                placeholderSrc={schedulerLow}
               />
             </div>
           </section>
@@ -99,6 +107,8 @@ const Projects = () => {
                 className="thumbnail"
                 alt="Wiki-Maps"
                 src={wikiMaps}
+                effect="blur"
+                placeholderSrc={wikiMapsLow}
               />
             </div>
             <hr className="divider" />
@@ -126,6 +136,8 @@ const Projects = () => {
                 className="thumbnail"
                 alt="Tweeter"
                 src={tweeter}
+                effect="blur"
+                placeholderSrc={tweeterLow}
               />
             </div>
             <hr className="divider" />
