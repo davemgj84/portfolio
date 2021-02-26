@@ -67,9 +67,9 @@ const Projects = () => {
               </h2>
               <ul>
                 <li>
-                  An app that allows users to search OMDB (The Open Movie
-                  Database), for their favourite films and nominate up to 5
-                  films for an award.
+                  An app that allows users to search the Open Movie Database
+                  (OMDB), for their favourite films and nominate up to 5 films
+                  for an award.
                 </li>
                 <li>Tech Stack: React, Sass, Axios</li>
               </ul>
