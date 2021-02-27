@@ -18,35 +18,11 @@
   }
 
   .projects-container {
-    // height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-  }
-
-  h2 {
-    color: #44545b;
-    font-size: 38px;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
-    transition: ease-in-out 0.3s;
-    text-decoration: underline;
-    &:hover {
-      color: #304149;
-      text-shadow: 2px 2px 1px #b4b1a6;
-    }
-
-    .fas {
-      margin-right: 0.5rem;
-    }
-    .far {
-      margin-right: 0.5rem;
-    }
-    a {
-      color: inherit;
-    }
   }
 
   .divider {
@@ -56,44 +32,6 @@
     background-color: #8a9398;
     border-width: 0;
     border-style: none;
-  }
-
-  .name-desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
-    max-width: 400px;
-  }
-
-  .project-block {
-    display: flex;
-    align-items: center;
-  }
-
-  li {
-    color: #59666d;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 1rem;
-    transition: ease-in-out 0.3s;
-    list-style: disc;
-    margin-left: 1.25rem;
-  }
-
-  .thumbnail {
-    width: 100%;
-    width: 360px;
-    height: auto;
-    border-radius: 10px;
-    transition: ease-in-out 0.3s;
-    margin: 1rem;
-    // cursor: pointer;
-    // &:hover {
-    //   opacity: 0.9;
-    //   box-shadow: 0px 5px 10px #908d84;
-    // }
   }
 
   @keyframes fadeInSlide {
@@ -112,71 +50,16 @@
   .projects h1 {
     margin-bottom: 1rem;
   }
-
-  .projects .name-desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .projects h1 {
     font-size: 42px;
-    // margin-bottom: 0;
-  }
-
-  .projects h2 {
-    font-size: 36px;
-  }
-
-  .projects .name-desc {
-    max-width: 380px;
-  }
-
-  .projects li {
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .project-block {
-    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 540px) {
   .projects h1 {
     font-size: 38px;
-  }
-
-  .projects h2 {
-    font-size: 30px;
-  }
-
-  .projects .name-desc {
-    max-width: 300px;
-  }
-
-  .projects li {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .projects .thumbnail {
-    width: 250px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .projects .name-desc {
-    max-width: 260px;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .projects .name-desc {
-    max-width: 220px;
   }
 }

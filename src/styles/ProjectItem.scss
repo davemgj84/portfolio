@@ -1,0 +1,112 @@
+.project-block {
+  display: flex;
+  align-items: center;
+
+  .name-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    max-width: 400px;
+
+    h2 {
+      color: #44545b;
+      font-size: 38px;
+      letter-spacing: 1px;
+      margin-bottom: 2rem;
+      transition: ease-in-out 0.3s;
+      text-decoration: underline;
+      &:hover {
+        color: #304149;
+        text-shadow: 2px 2px 1px #b4b1a6;
+      }
+      .fas {
+        margin-right: 0.5rem;
+      }
+      .far {
+        margin-right: 0.5rem;
+      }
+      a {
+        color: inherit;
+      }
+    }
+    li {
+      color: #59666d;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 1rem;
+      transition: ease-in-out 0.3s;
+      list-style: disc;
+      margin-left: 1.25rem;
+    }
+  }
+  .thumbnail {
+    width: 100%;
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+    margin: 1rem;
+    // cursor: pointer;
+    // &:hover {
+    //   opacity: 0.9;
+    //   box-shadow: 0px 5px 10px #908d84;
+    // }
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .project-block .name-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project-block .name-desc {
+    max-width: 380px;
+    h2 {
+      font-size: 36px;
+    }
+    li {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-block {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .project-block .name-desc {
+    max-width: 300px;
+    h2 {
+      font-size: 30px;
+    }
+    li {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  .project-block .thumbnail {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .project-block .name-desc {
+    max-width: 260px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .project-block .name-desc {
+    max-width: 220px;
+  }
+}
