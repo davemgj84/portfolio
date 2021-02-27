@@ -4,13 +4,13 @@
 
 - This project works as a resume for potential employers. It provides information about my skills, recent projects, education, experience, as well as a way to contact me.
 
-- All of the projects link to repos on my Github.
+- All of the projects link to repositories on my Github.
 
-- The project itself also showcases the use of React, React-Router, React-Progressive-Graceful-Image, React-Spring and Sass.
+- The project itself also showcases the use of React, React-Router, React-Lazy-Load-Image-Component, and Sass.
 
 - The live website can be visited here - https://www.djardine.com
 
-## Installation
+## To Run Locally:
 
 - Clone this repo and cd into the project folder.
 - Run `npm install` to install all dependencies.
