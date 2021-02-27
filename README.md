@@ -25,7 +25,7 @@
 
 ## Screenshots
 
-![Home](https://github.com/davemgj84/profile/blob/master/docs/portfolio-home.png?raw=true)
-![Skills](https://github.com/davemgj84/profile/blob/master/docs/portfolio-skills.png?raw=true)
-![Projects](https://github.com/davemgj84/profile/blob/master/docs/portfolio-projects.png?raw=true)
-![Contact](https://github.com/davemgj84/profile/blob/master/docs/portfolio-contact.png?raw=true)
+![Home](https://github.com/davemgj84/portfolio/blob/master/docs/portfolio-home.png?raw=true)
+![Skills](https://github.com/davemgj84/portfolio/blob/master/docs/portfolio-skills.png?raw=true)
+![Projects](https://github.com/davemgj84/portfolio/blob/master/docs/portfolio-projects.png?raw=true)
+![Contact](https://github.com/davemgj84/portfolio/blob/master/docs/portfolio-contact.png?raw=true)
