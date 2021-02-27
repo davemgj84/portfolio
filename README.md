@@ -20,7 +20,6 @@
 
 - React
 - React-Router-Dom
-- React-Spring
 - React-Lazy-Load-Image-Component
 - Node-Sass
 

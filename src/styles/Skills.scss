@@ -1,19 +1,8 @@
 .skills-container {
   display: flex;
-  animation: fadeInSlide 0.5s;
+  animation: fadeIn 1s;
   transition: ease-in-out 0.3s;
   padding-top: 90px;
-
-  @keyframes fadeInSlide {
-    from {
-      opacity: 0;
-      transform: translateX(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
 
   .v-divider {
     width: 1px;
@@ -221,6 +210,17 @@
       list-style: disc;
       margin-left: 1.25rem;
     }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 
