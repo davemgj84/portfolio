@@ -4,6 +4,21 @@ import ProjectItem from "./ProjectItem";
 import images from "../helpers/images";
 
 const Projects = () => {
+  const {
+    haiku,
+    haikuLow,
+    theFilmAwards,
+    theFilmAwardsLow,
+    sapphire,
+    sapphireLow,
+    scheduler,
+    schedulerLow,
+    wikiMaps,
+    wikiMapsLow,
+    tweeter,
+    tweeterLow,
+  } = images;
+
   return (
     <>
       <section className="projects">
@@ -18,9 +33,9 @@ const Projects = () => {
             description={
               "A small but fun front-end app, that will allows the user to click a button and read a Haiku. Every click will bring up a new Haiku."
             }
-            techStack={"Tech Stack: React, Sass"}
-            image={images.haiku}
-            placeholder={images.haikuLow}
+            techStack={"React, Sass"}
+            image={haiku}
+            placeholder={haikuLow}
           />
 
           <ProjectItem
@@ -30,9 +45,9 @@ const Projects = () => {
             description={
               "An app that allows users to search the Open Movie Database (OMDb API), for their favourite films and nominate up to 5 films for an award."
             }
-            techStack={"Tech Stack: React, Sass, Axios"}
-            image={images.theFilmAwards}
-            placeholder={images.theFilmAwardsLow}
+            techStack={"React, Sass, Axios"}
+            image={theFilmAwards}
+            placeholder={theFilmAwardsLow}
           />
 
           <ProjectItem
@@ -43,10 +58,10 @@ const Projects = () => {
               "An interactive story based choose your own adventure game."
             }
             techStack={
-              "Tech Stack: React, React-Spring, Phaser, Axios, Express, Node, PSQL"
+              "React, React-Spring, Phaser, Axios, Express, Node, PSQL"
             }
-            image={images.sapphire}
-            placeholder={images.sapphireLow}
+            image={sapphire}
+            placeholder={sapphireLow}
           />
 
           <ProjectItem
@@ -56,9 +71,9 @@ const Projects = () => {
             description={
               "Scheduler is single-page app that allows students to book appointments with interviewers."
             }
-            techStack={"Tech Stack: React, Sass, and Axios"}
-            image={images.scheduler}
-            placeholder={images.schedulerLow}
+            techStack={"React, Sass, and Axios"}
+            image={scheduler}
+            placeholder={schedulerLow}
           />
 
           <ProjectItem
@@ -68,9 +83,9 @@ const Projects = () => {
             description={
               "An interactive map where users can create personal maps of favourite locations, using the Google Maps API."
             }
-            techStack={"Tech Stack: Express, Node, EJS, PG, Sass"}
-            image={images.wikiMaps}
-            placeholder={images.wikiMapsLow}
+            techStack={"Express, Node, EJS, PG, Sass"}
+            image={wikiMaps}
+            placeholder={wikiMapsLow}
           />
 
           <ProjectItem
@@ -78,11 +93,9 @@ const Projects = () => {
             icon={"fas fa-retweet"}
             title={"Tweeter"}
             description={"Tweeter is a simple, single-page Twitter clone."}
-            techStack={
-              "Tech Stack: HTML, CSS, JS, jQuery, Node, Express, MongoDB"
-            }
-            image={images.tweeter}
-            placeholder={images.tweeterLow}
+            techStack={"HTML, CSS, JS, jQuery, Node, Express, MongoDB"}
+            image={tweeter}
+            placeholder={tweeterLow}
           />
         </div>
       </section>
