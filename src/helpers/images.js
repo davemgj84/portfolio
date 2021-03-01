@@ -1,3 +1,5 @@
+import weather from "../assets/weather.jpg";
+import weatherLow from "../assets/weatherLow.jpg";
 import haiku from "../assets/haiku.jpg";
 import haikuLow from "../assets/haikuLow.jpg";
 import theFilmAwards from "../assets/theFilmAwards.png";
@@ -12,6 +14,8 @@ import tweeter from "../assets/tweeter.jpg";
 import tweeterLow from "../assets/tweeterLow.jpg";
 
 const images = {
+  weather,
+  weatherLow,
   haiku,
   haikuLow,
   theFilmAwards,

@@ -5,6 +5,8 @@ import images from "../helpers/images";
 
 const Projects = () => {
   const {
+    weather,
+    weatherLow,
     haiku,
     haikuLow,
     theFilmAwards,
@@ -27,13 +29,25 @@ const Projects = () => {
           <hr className="divider" />
 
           <ProjectItem
+            link={"https://github.com/davemgj84/weather"}
+            icon={"fas fa-cloud-sun"}
+            title={"Weather"}
+            description={
+              "A simple Front-End Weather Application. Using the OpenWeather API, it provides real time weather data to the user."
+            }
+            techStack={"React, Scss, and Axios"}
+            image={weather}
+            placeholder={weatherLow}
+          />
+
+          <ProjectItem
             link={"https://github.com/davemgj84/haiku"}
             icon={"fas fa-pen-fancy"}
             title={"Haiku"}
             description={
-              "A small but fun front-end app, that will allows the user to click a button and read a Haiku. Every click will bring up a new Haiku."
+              "A small but fun Front-End application, that will allows the user to click a button and read a Haiku. Every click will bring up a new Haiku."
             }
-            techStack={"React, Sass"}
+            techStack={"React & Scss"}
             image={haiku}
             placeholder={haikuLow}
           />
@@ -45,7 +59,7 @@ const Projects = () => {
             description={
               "An app that allows users to search the Open Movie Database (OMDb API), for their favourite films and nominate up to 5 films for an award."
             }
-            techStack={"React, Sass, Axios"}
+            techStack={"React, Scss & Axios"}
             image={theFilmAwards}
             placeholder={theFilmAwardsLow}
           />
@@ -58,7 +72,7 @@ const Projects = () => {
               "An interactive story based choose your own adventure game."
             }
             techStack={
-              "React, React-Spring, Phaser, Axios, Express, Node, PSQL"
+              "React, React-Spring, Phaser, Axios, Express, Node & PSQL"
             }
             image={sapphire}
             placeholder={sapphireLow}
@@ -71,7 +85,7 @@ const Projects = () => {
             description={
               "Scheduler is single-page app that allows students to book appointments with interviewers."
             }
-            techStack={"React, Sass, and Axios"}
+            techStack={"React, Scss & Axios"}
             image={scheduler}
             placeholder={schedulerLow}
           />
@@ -83,7 +97,7 @@ const Projects = () => {
             description={
               "An interactive map where users can create personal maps of favourite locations, using the Google Maps API."
             }
-            techStack={"Express, Node, EJS, PG, Sass"}
+            techStack={"Express, Node, EJS, PG & Scss"}
             image={wikiMaps}
             placeholder={wikiMapsLow}
           />
@@ -93,7 +107,7 @@ const Projects = () => {
             icon={"fas fa-retweet"}
             title={"Tweeter"}
             description={"Tweeter is a simple, single-page Twitter clone."}
-            techStack={"HTML, CSS, JS, jQuery, Node, Express, MongoDB"}
+            techStack={"HTML, CSS, JS, jQuery, Node, Express & MongoDB"}
             image={tweeter}
             placeholder={tweeterLow}
           />
