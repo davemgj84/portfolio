@@ -1,30 +1,13 @@
 .skills-container {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   animation: fadeIn 1s;
   transition: ease-in-out 0.3s;
   padding-top: 90px;
 
-  .v-divider {
-    width: 1px;
-    height: 80vh;
-    background-color: #8a9398;
-    align-self: center;
-    border-width: 0;
-    border-style: none;
-  }
-
-  .h-divider-responsive {
-    width: 70%;
-    height: 1px;
-    background-color: #8a9398;
-    align-self: center;
-    border-width: 0;
-    border-style: none;
-    display: none;
-  }
-
   .skills {
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -43,16 +26,7 @@
       align-self: center;
       color: #44545b;
       font-size: 27px;
-    }
-
-    .h-divider {
-      width: 70%;
-      height: 1px;
-      background-color: #8a9398;
-      align-self: center;
-      margin-top: 1.5rem;
-      border-width: 0;
-      border-style: none;
+      margin-bottom: 1rem;
     }
 
     .secondary {
@@ -60,6 +34,7 @@
       color: #44545b;
       font-size: 27px;
       margin-top: 2rem;
+      margin-bottom: 1rem;
     }
 
     .secondary-container {
@@ -80,48 +55,44 @@
       align-self: flex-start;
       color: #59666d;
       margin-top: 1rem;
-      width: 730px;
+      width: 760px;
       list-style: disc;
       margin-left: 1.25rem;
     }
   }
 
   .education-experience {
-    width: 50%;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+  }
 
-    .h-divider {
-      width: 70%;
-      height: 1px;
-      background-color: #8a9398;
-      align-self: center;
-      margin-top: 1.5rem;
-      border-width: 0;
-      border-style: none;
-    }
+  .h-divider {
+    width: 70%;
+    height: 1px;
+    background-color: #8a9398;
+    align-self: center;
+    margin-top: 2rem;
+    border-width: 0;
+    border-style: none;
   }
 
   .education {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     .education-container {
       display: flex;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-      div {
-        margin: 1rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
-      }
+      flex-direction: column;
+    }
+
+    div {
+      width: 780px;
     }
 
     h2 {
@@ -134,7 +105,7 @@
       align-self: center;
       color: #44545b;
       font-size: 27px;
-      margin-top: 1rem;
+      margin-top: 2rem;
       margin-bottom: 1rem;
     }
 
@@ -157,7 +128,6 @@
 
   .experience {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,40 +137,40 @@
       letter-spacing: 2px;
       color: #304149;
       margin-top: 2rem;
-      margin-bottom: 1rem;
     }
 
     .experience-container {
       display: flex;
-      justify-content: space-evenly;
+      flex-direction: column;
+      margin-bottom: 2rem;
       width: 100%;
     }
 
     .job {
       display: flex;
       flex-direction: column;
+      align-self: center;
       margin: 2rem;
       margin-top: 0;
     }
 
     h3 {
-      align-self: center;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
       color: #44545b;
       font-size: 27px;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
     }
 
     h4 {
       font-family: "Source Sans Pro", sans-serif;
       font-weight: normal;
-      align-self: flex-start;
       color: #44545b;
       font-size: 20px;
       line-height: 32px;
     }
 
     li {
+      width: 760px;
       font-family: "Source Sans Pro", sans-serif;
       align-self: flex-start;
       color: #59666d;
@@ -221,107 +191,6 @@
   to {
     opacity: 1;
     transform: translateX(0px);
-  }
-}
-
-@media screen and (max-width: 1700px) {
-  .skills-container {
-    .skills {
-      li {
-        width: 580px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .skills-container {
-    justify-content: center;
-    flex-direction: column;
-
-    .skills,
-    .education-experience {
-      height: 100%;
-      width: 100%;
-      .h-divider {
-        margin-top: 2rem;
-      }
-    }
-
-    .v-divider {
-      display: none;
-    }
-
-    .h-divider-responsive {
-      display: block;
-    }
-
-    .skills {
-      height: 100%;
-      .main {
-        margin-bottom: 1rem;
-      }
-      .h-divider {
-        margin-top: 2rem;
-      }
-      .secondary {
-        margin-bottom: 1rem;
-      }
-      li {
-        width: 760px;
-      }
-    }
-
-    .education-experience {
-      height: 100%;
-      margin: 0;
-    }
-
-    .education {
-      height: 50%;
-      .education-container {
-        flex-direction: column;
-        align-items: flex-start;
-        div {
-          margin: 0;
-          margin-left: 0;
-          margin-right: 0;
-        }
-      }
-      .school {
-        margin-top: 2rem;
-      }
-      div {
-        width: 780px;
-      }
-      h2 {
-        margin-top: 2rem;
-      }
-    }
-
-    .experience-container {
-      flex-direction: column;
-      margin-bottom: 2rem;
-    }
-
-    .experience {
-      height: 50%;
-      .job {
-        align-self: center;
-      }
-
-      h2 {
-        margin-bottom: 0;
-      }
-      h3 {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        align-self: flex-start;
-      }
-      li {
-        width: 760px;
-      }
-    }
   }
 }
 

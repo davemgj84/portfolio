@@ -11,7 +11,7 @@ const Skills = () => {
           <div className="info">
             <h3 className="subtitle">Languages</h3>
             <ul>
-              <li>Javascript, Ruby, HTML, CSS</li>
+              <li>Javascript, Typescript, Ruby, HTML, CSS</li>
             </ul>
             <h3 className="subtitle">Frameworks/Libraries</h3>
             <ul>
@@ -26,7 +26,7 @@ const Skills = () => {
             </ul>
             <h3 className="subtitle">Systems/Databases</h3>
             <ul>
-              <li>PostgreSQL, MongoDB</li>
+              <li>PostgreSQL, SQL, MongoDB</li>
             </ul>
           </div>
           <hr className="h-divider" />
@@ -42,8 +42,7 @@ const Skills = () => {
             </ul>
           </div>
         </section>
-        <hr className="h-divider-responsive" />
-        <hr className="v-divider" />
+        <hr className="h-divider" />
         <section className="education-experience">
           <section className="education">
             <h2>Education</h2>
