@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import {
   BrowserRouter,
   Route,
+  Switch,
   Redirect,
   useLocation,
   withRouter,
@@ -26,16 +27,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <ScrollToTop>
-          <Nav />
-          <Route exact path="/">
-            <Redirect to="/home" />
-          </Route>
-          <Route path="/home" component={Home} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </ScrollToTop>
+        <Switch>
+          <ScrollToTop>
+            <Nav />
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
+            <Route path="/home" component={Home} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </ScrollToTop>
+        </Switch>
       </BrowserRouter>
     </div>
   );

@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import openNav from "../helpers/openNav";
-import closeNav from "../helpers/closeNav";
 import "../styles/Nav.scss";
 
 const Nav = () => {
+  const [navActive, setNavActive] = useState(false);
+
   return (
     <>
       <nav>
@@ -16,14 +16,14 @@ const Nav = () => {
             </Link>
           </h4>
         </div>
-        <ul className="nav-links">
+        <ul className={navActive ? "nav-active nav-links" : "nav-links"}>
           <li>
             <NavLink
               activeStyle={{
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => closeNav()}
+              onClick={() => setNavActive((prev) => !prev)}
               to={"/home"}
             >
               Home
@@ -35,7 +35,7 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => closeNav()}
+              onClick={() => setNavActive((prev) => !prev)}
               to={"/skills"}
             >
               Skills
@@ -47,7 +47,7 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => closeNav()}
+              onClick={() => setNavActive((prev) => !prev)}
               to={"/projects"}
             >
               Projects
@@ -59,14 +59,17 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => closeNav()}
+              onClick={() => setNavActive((prev) => !prev)}
               to={"/contact"}
             >
               Contact
             </NavLink>
           </li>
         </ul>
-        <div onClick={() => openNav()} className="burger">
+        <div
+          onClick={() => setNavActive((prev) => !prev)}
+          className={navActive ? "burger toggle" : "burger"}
+        >
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
