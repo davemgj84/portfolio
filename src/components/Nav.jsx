@@ -23,7 +23,7 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => setNavActive((prev) => !prev)}
+              onClick={() => setNavActive(false)}
               to={"/home"}
             >
               Home
@@ -35,7 +35,7 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => setNavActive((prev) => !prev)}
+              onClick={() => setNavActive(false)}
               to={"/skills"}
             >
               Skills
@@ -47,7 +47,7 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => setNavActive((prev) => !prev)}
+              onClick={() => setNavActive(false)}
               to={"/projects"}
             >
               Projects
@@ -59,7 +59,7 @@ const Nav = () => {
                 backgroundColor: "rgba(92, 111, 133, 0.7)",
                 color: "#ffffff",
               }}
-              onClick={() => setNavActive((prev) => !prev)}
+              onClick={() => setNavActive(false)}
               to={"/contact"}
             >
               Contact
