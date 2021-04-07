@@ -23,15 +23,15 @@ const Home = () => {
           <div className="bio">
             <h1>David Jardine</h1>
             <p className="bio-text">
-              I am a Full Stack Junior Web Developer with a background as an
-              artist. I offer many perspectives and modes of thinking with my
-              diverse background. I have always loved creating and building
-              interactive projects and collaborating with a team. I enjoy
-              critical thinking, problem solving, and creativity in my work. I
-              recently finished the Web Development Bootcamp at Lighthouse Labs
-              and am eager to begin my journey as a developer. Check out my{" "}
-              <Link to={"/projects"}>projects</Link> and{" "}
-              <Link to={"/contact"}>contact</Link> me today!
+              A Full Stack Web Developer with a background as an artist.
+              Offering many perspectives and modes of thinking with my diverse
+              experience, I have always loved creating and building interactive
+              projects and collaborating with a team. My passion for creativity,
+              problem solving and critical thinking stand out in my work as a
+              developer. Having recently graduated from Lighthouse Labs' Web
+              Development Boot Camp, I am eager to begin my journey as a
+              developer. Please visit my <Link to={"/projects"}>projects</Link>{" "}
+              and <Link to={"/contact"}>contact</Link> me today!
             </p>
           </div>
         </div>

@@ -43,25 +43,12 @@
     align-items: center;
   }
 
+  .socials {
+    display: flex;
+    font-size: 40px;
+  }
+
   .fa-envelope {
-    margin-right: 1rem;
-  }
-
-  .github {
-    display: flex;
-    align-items: center;
-  }
-
-  .fa-github {
-    margin-right: 1rem;
-  }
-
-  .linked-in {
-    display: flex;
-    align-items: center;
-  }
-
-  .fa-linkedin {
     margin-right: 1rem;
   }
 
@@ -78,6 +65,9 @@
 @media screen and (max-width: 768px) {
   .contacts {
     font-size: 18px;
+    .socials {
+      font-size: 28px;
+    }
   }
   .contacts h1 {
     font-size: 42px;
@@ -87,6 +77,9 @@
 @media screen and (max-width: 380px) {
   .contacts {
     font-size: 15px;
+    .socials {
+      font-size: 24px;
+    }
   }
   .contacts h1 {
     font-size: 35px;
