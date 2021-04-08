@@ -39,13 +39,10 @@
     }
   }
 
-  .email {
-    display: flex;
-    align-items: center;
-  }
-
   .socials {
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     font-size: 40px;
   }
 

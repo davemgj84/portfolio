@@ -38,6 +38,16 @@ const Contact = () => {
                 <i className="fab fa-linkedin"></i>
               </a>
             </h3>
+            <h3>
+              <a
+                className="instagram"
+                href="https://www.instagram.com/david_jardine_art/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+            </h3>
           </div>
         </div>
       </section>
