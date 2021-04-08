@@ -30,7 +30,7 @@ const Home = () => {
               problem solving, and critical thinking has led me to explore this
               amazing field in technology. Recently graduating from Lighthouse
               Labs' Web Development Boot Camp, I am eager to begin my journey as
-              a developer. Please visit my{" "}
+              a developer. Please check out my{" "}
               <Link to={"/projects"}>projects</Link> and{" "}
               <Link to={"/contact"}>contact</Link> me today!
             </p>
