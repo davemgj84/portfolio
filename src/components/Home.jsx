@@ -29,7 +29,7 @@ const Home = () => {
               projects and collaborating with a team. My passion for creativity,
               problem solving, and critical thinking has led me to explore this
               amazing field in technology. Recently graduating from Lighthouse
-              Labs' Web Development Boot Camp I am eager to begin my journey as
+              Labs' Web Development Boot Camp, I am eager to begin my journey as
               a developer. Please visit my{" "}
               <Link to={"/projects"}>projects</Link> and{" "}
               <Link to={"/contact"}>contact</Link> me today!
