@@ -21,7 +21,7 @@ body {
   scrollbar-width: none;
 
   background-color: #e2ded0;
-  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  background-image: url("./assets/gplay.png");
   background-attachment: fixed;
   background-position: 0 0;
 }
