@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/ProjectItem.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "../../node_modules/react-lazy-load-image-component/src/effects/blur.css";
 
 const ProjectItem = (props) => {
   return (
