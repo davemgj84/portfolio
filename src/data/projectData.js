@@ -12,6 +12,8 @@ import theFilmAwards from "../assets/theFilmAwards.png";
 import theFilmAwardsLow from "../assets/theFilmAwardsLow.jpg";
 import weather from "../assets/weather.jpg";
 import weatherLow from "../assets/weatherLow.jpg";
+import reactBlog from "../assets/reactBlog.jpg";
+import reactBlogLow from "../assets/reactBlogLow.jpg";
 import iss from "../assets/iss.jpg";
 import issLow from "../assets/issLow.jpg";
 
@@ -54,7 +56,8 @@ const projectData = [
     desc: "An interactive story based choose your own adventure game.",
     icon: "fas fa-gamepad",
     link: "https://github.com/davemgj84/sapphire",
-    tech: "React, React-Spring, Phaser, Axios, Express, Node & PSQL",
+    tech:
+      "React, React-Router, React-Spring, GSAP, Phaser, Axios, Express, Node & PSQL",
     image: sapphire,
     placeholder: sapphireLow,
   },
@@ -93,6 +96,17 @@ const projectData = [
   },
   {
     id: 8,
+    title: "React Blog",
+    desc:
+      "A simple Blog in which a user may read, create, or delete blog articles.",
+    icon: "fab fa-react",
+    link: "https://github.com/davemgj84/react-blog",
+    tech: "React, React-Router, JSON Server & Sass",
+    image: reactBlog,
+    placeholder: reactBlogLow,
+  },
+  {
+    id: 9,
     title: "ISS Spotter",
     desc:
       "An app for space enthusiasts who are interested in spotting the International Space Station (ISS).",
