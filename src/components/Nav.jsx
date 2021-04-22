@@ -26,7 +26,12 @@ const Nav = () => {
 
   const navLinks = navItems.map((nav, index) => {
     return (
-      <NavItem title={nav.title} link={nav.link} setNavActive={setNavActive} />
+      <NavItem
+        key={index}
+        title={nav.title}
+        link={nav.link}
+        setNavActive={setNavActive}
+      />
     );
   });
 
