@@ -5,7 +5,7 @@ import "../styles/Nav.scss";
 
 const Nav = () => {
   const [navActive, setNavActive] = useState(false);
-  const navLinks = [
+  const navItems = [
     {
       title: "Home",
       link: "/home",
@@ -24,7 +24,7 @@ const Nav = () => {
     },
   ];
 
-  const navItems = navLinks.map((nav, index) => {
+  const navLinks = navItems.map((nav, index) => {
     return (
       <NavItem title={nav.title} link={nav.link} setNavActive={setNavActive} />
     );
@@ -42,7 +42,7 @@ const Nav = () => {
           </h4>
         </div>
         <ul className={navActive ? "nav-active nav-links" : "nav-links"}>
-          {navItems}
+          {navLinks}
         </ul>
         <div
           onClick={() => setNavActive((prev) => !prev)}
