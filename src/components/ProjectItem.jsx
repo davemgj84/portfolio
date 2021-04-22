@@ -15,8 +15,8 @@ const ProjectItem = (props) => {
             </a>
           </h2>
           <ul>
-            <li>{props.description}</li>
-            <li>Tech Stack: {props.techStack}</li>
+            <li>{props.desc}</li>
+            <li>Tech Stack: {props.tech}</li>
           </ul>
         </div>
         <LazyLoadImage
