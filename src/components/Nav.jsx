@@ -1,9 +1,34 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import NavItem from "./NavItem";
 import "../styles/Nav.scss";
 
 const Nav = () => {
   const [navActive, setNavActive] = useState(false);
+  const navLinks = [
+    {
+      title: "Home",
+      link: "/home",
+    },
+    {
+      title: "Skills",
+      link: "/skills",
+    },
+    {
+      title: "Projects",
+      link: "/projects",
+    },
+    {
+      title: "Contact",
+      link: "/contact",
+    },
+  ];
+
+  const navItems = navLinks.map((nav, index) => {
+    return (
+      <NavItem title={nav.title} link={nav.link} setNavActive={setNavActive} />
+    );
+  });
 
   return (
     <>
@@ -17,54 +42,7 @@ const Nav = () => {
           </h4>
         </div>
         <ul className={navActive ? "nav-active nav-links" : "nav-links"}>
-          <li>
-            <NavLink
-              activeStyle={{
-                backgroundColor: "rgba(92, 111, 133, 0.7)",
-                color: "#ffffff",
-              }}
-              onClick={() => setNavActive(false)}
-              to={"/home"}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              activeStyle={{
-                backgroundColor: "rgba(92, 111, 133, 0.7)",
-                color: "#ffffff",
-              }}
-              onClick={() => setNavActive(false)}
-              to={"/skills"}
-            >
-              Skills
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              activeStyle={{
-                backgroundColor: "rgba(92, 111, 133, 0.7)",
-                color: "#ffffff",
-              }}
-              onClick={() => setNavActive(false)}
-              to={"/projects"}
-            >
-              Projects
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              activeStyle={{
-                backgroundColor: "rgba(92, 111, 133, 0.7)",
-                color: "#ffffff",
-              }}
-              onClick={() => setNavActive(false)}
-              to={"/contact"}
-            >
-              Contact
-            </NavLink>
-          </li>
+          {navItems}
         </ul>
         <div
           onClick={() => setNavActive((prev) => !prev)}
