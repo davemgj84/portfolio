@@ -65,6 +65,18 @@ const Skills = () => {
             <div className="experience-container">
               <div className="job">
                 <h3>Work</h3>
+                <h4>Clir Renewables Inc.</h4>
+                <ul>
+                  <li>Junior Software Developer - Start Date - May 10th</li>
+                  <li>
+                    Helping to create renewable energy optimization and
+                    reporting software
+                  </li>
+                  <li>Part of the CX team (Customer Experience)</li>
+                </ul>
+              </div>
+              <div className="job">
+                <h3>Work</h3>
                 <h4>The Soma Gallery</h4>
                 <ul>
                   <li>Assistant Manager - April 2014 - March 2020</li>
