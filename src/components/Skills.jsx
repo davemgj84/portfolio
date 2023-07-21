@@ -67,10 +67,10 @@ const Skills = () => {
                 <h3>Work</h3>
                 <h4>Clir Renewables Inc.</h4>
                 <ul>
-                  <li>Junior Software Developer - Start Date - May 10th</li>
+                  <li>Intermediate Software Developer - May 2021 - Now</li>
                   <li>
                     Helping to create renewable energy optimization and
-                    reporting software
+                    reporting software for wind and solar farms
                   </li>
                   <li>Part of the CX team (Customer Experience)</li>
                 </ul>
