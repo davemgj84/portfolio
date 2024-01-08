@@ -8,26 +8,30 @@ const Skills = () => {
       <div className="skills-container">
         <section className="skills">
           <h2>Professional Skills</h2>
-          <h3 className="main">Web Development</h3>
+          <h3 className="main">Software Development</h3>
           <div className="info">
             <h3 className="subtitle">Languages</h3>
             <ul>
-              <li>Javascript, Typescript, Ruby, HTML, CSS</li>
+              <li>Javascript, Typescript, Python, HTML, CSS</li>
             </ul>
             <h3 className="subtitle">Frameworks/Libraries</h3>
             <ul>
               <li>
-                NodeJS, ReactJS, Phaser, Ajax, Axios, jQuery, Bootstrap, Rails,
-                EJS, Express, SASS
+                ReactJS, NodeJS, React Query, Redux, Marshmallow, Flask, MUI,
+                Emotion, Highcharts, AG-Grid, MapBox, Styled-Components, Phaser,
+                Ajax, Axios, jQuery, Bootstrap, Rails, EJS, Express, SASS,
+                Google Analytics
               </li>
             </ul>
             <h3 className="subtitle">Testing</h3>
             <ul>
-              <li>Jest, Storybook, Cypress, Mocha/Chai</li>
+              <li>
+                React Testing Library, Jest, Storybook, Cypress, Mocha/Chai
+              </li>
             </ul>
             <h3 className="subtitle">Systems/Databases</h3>
             <ul>
-              <li>PostgreSQL, SQL, MongoDB</li>
+              <li>AWS, CircleCI, MariaDB, PostgreSQL, SQL, SQLAlchemy</li>
             </ul>
           </div>
           <hr className="h-divider" />
@@ -35,7 +39,7 @@ const Skills = () => {
           <div className="secondary-container">
             <h3 className="subtitle">Software</h3>
             <ul>
-              <li>Photoshop, Illustrator, InDesign</li>
+              <li>Photoshop, Illustrator, InDesign, Figma</li>
             </ul>
             <h3 className="subtitle">Fine Art</h3>
             <ul>
@@ -68,12 +72,44 @@ const Skills = () => {
                 <h3>Work</h3>
                 <h4>Clir Renewables Inc.</h4>
                 <ul>
-                  <li>Intermediate Software Developer - May 2021 - Now</li>
+                  <li>
+                    Software Developer
+                    <ol>
+                      <li>Intermediate - January 2023 - January 2024</li>
+                      <li>Junior - May 2021 - January 2023</li>
+                    </ol>
+                  </li>
+
                   <li>
                     Helping to create renewable energy optimization and
                     reporting software for wind and solar farms
                   </li>
-                  <li>Part of the CX team (Customer Experience)</li>
+                  <li>Typescript/React Front-end</li>
+                  <li>Python Webserver</li>
+                  <li>React Testing Library and Cypress</li>
+                  <li>Continuous Deployment via CircleCI and AWS</li>
+                  <li>
+                    Maintaining and improving the performance of existing
+                    software functionality
+                  </li>
+                  <li>
+                    Design, develop, implement and test new full-stack software
+                    features
+                  </li>
+                  <li>
+                    Work closely with colleagues to help meet the team’s
+                    objectives and goals
+                  </li>
+                  <li>
+                    Recommended and implemented improvements to existing
+                    software programs and processes
+                  </li>
+                  <li>
+                    Mentor and support developers on our team and across the
+                    department
+                  </li>
+                  <li>Diversity & Inclusion Committee member</li>
+                  <li> Sustainability Committee member</li>
                 </ul>
               </div>
               <div className="job">
