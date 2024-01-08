@@ -1,7 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../node_modules/react-lazy-load-image-component/src/effects/blur.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
+import React from "react";
+
 import "../styles/Home.scss";
 import profile from "../assets/profile.jpg";
 import profileLow from "../assets/profileLow.jpg";

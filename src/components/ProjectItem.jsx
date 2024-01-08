@@ -1,7 +1,8 @@
-import React from "react";
-import "../styles/ProjectItem.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../node_modules/react-lazy-load-image-component/src/effects/blur.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import React from "react";
+
+import "../styles/ProjectItem.scss";
 
 const ProjectItem = (props) => {
   return (

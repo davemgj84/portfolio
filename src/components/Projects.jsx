@@ -1,7 +1,8 @@
 import React from "react";
+
 import "../styles/Projects.scss";
-import ProjectItem from "./ProjectItem";
 import projectData from "../data/projectData";
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   const projectItems = projectData

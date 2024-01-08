@@ -1,7 +1,8 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import NavItem from "./NavItem";
+import React, { useState } from "react";
+
 import "../styles/Nav.scss";
+import NavItem from "./NavItem";
 
 const Nav = () => {
   const [navActive, setNavActive] = useState(false);
