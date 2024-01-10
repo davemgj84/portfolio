@@ -81,23 +81,23 @@ const Skills = () => {
                   </li>
 
                   <li>
-                    Helping to create renewable energy optimization and
-                    reporting software for wind and solar farms
+                    Contributed to the creation of renewable energy optimization
+                    and reporting software for wind and solar farms
                   </li>
                   <li>Typescript/React Front-end</li>
                   <li>Python Webserver</li>
                   <li>React Testing Library and Cypress</li>
                   <li>Continuous Deployment via CircleCI and AWS</li>
                   <li>
-                    Maintaining and improving the performance of existing
-                    software functionality
+                    Maintained and improved the performance of existing software
+                    functionality
                   </li>
                   <li>
-                    Design, develop, implement and test new full-stack software
-                    features
+                    Designed, developed, implemented and tested new full-stack
+                    software features
                   </li>
                   <li>
-                    Work closely with colleagues to help meet the team’s
+                    Worked closely with colleagues to help meet the team’s
                     objectives and goals
                   </li>
                   <li>
@@ -105,8 +105,8 @@ const Skills = () => {
                     software programs and processes
                   </li>
                   <li>
-                    Mentor and support developers on our team and across the
-                    department
+                    Mentored and supported developers within the team and across
+                    the department
                   </li>
                   <li>Diversity & Inclusion Committee member</li>
                   <li> Sustainability Committee member</li>
@@ -118,8 +118,8 @@ const Skills = () => {
                 <ul>
                   <li>Assistant Manager - April 2014 - March 2020</li>
                   <li>Sales of art, literature and antiquities</li>
-                  <li>Training and supervision of staff</li>
-                  <li>Managing inventory & payroll</li>
+                  <li>Trained and supervised staff</li>
+                  <li>Managed inventory & payroll</li>
                 </ul>
               </div>
               <div className="job">
@@ -127,8 +127,8 @@ const Skills = () => {
                 <h4>Greater Vancouver Interactive Arts Society</h4>
                 <ul>
                   <li>Grants Committee Member - August 2014 - August 2016</li>
-                  <li>Collaboration with committee to award art grants</li>
-                  <li>Helping artists to fulfil grant requirements</li>
+                  <li>Collaborated with committee to award art grants</li>
+                  <li>Helped artists to fulfil grant requirements</li>
                 </ul>
               </div>
             </div>
