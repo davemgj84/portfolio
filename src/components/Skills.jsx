@@ -12,15 +12,17 @@ const Skills = () => {
           <div className="info">
             <h3 className="subtitle">Languages</h3>
             <ul>
-              <li>Javascript, Typescript, Python, HTML, CSS</li>
+              <li>
+                Javascript, Typescript, Python, Ruby, HTML, CSS, Bash, SQL, YAML
+              </li>
             </ul>
             <h3 className="subtitle">Frameworks/Libraries</h3>
             <ul>
               <li>
-                ReactJS, NodeJS, React Query, Redux, Marshmallow, Flask, MUI,
+                React, Node, React-Query, Redux, Marshmallow, Flask, Axios, MUI,
                 Emotion, Highcharts, AG-Grid, MapBox, Styled-Components, Phaser,
-                Ajax, Axios, jQuery, Bootstrap, Rails, EJS, Express, SASS,
-                Google Analytics
+                Ajax, jQuery, Bootstrap, Rails, Express, SASS, Google Analytics,
+                BitBucket, Sentry, GIT, Docker, Cron
               </li>
             </ul>
             <h3 className="subtitle">Testing</h3>
