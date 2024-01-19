@@ -4,33 +4,29 @@ import "../styles/Projects.scss";
 import projectData from "../data/projectData";
 import ProjectItem from "./ProjectItem";
 
-const Projects = () => {
-  const projectItems = projectData
-    .map((project) => {
-      return (
-        <ProjectItem
-          key={project.id}
-          title={project.title}
-          desc={project.desc}
-          icon={project.icon}
-          link={project.link}
-          tech={project.tech}
-          image={project.image}
-          placeholder={project.placeholder}
-        />
-      );
-    })
-    .reverse();
-
+export default function Projects() {
   return (
     <section className="projects">
       <h1>Projects</h1>
       <div className="projects-container">
         <hr className="divider" />
-        {projectItems}
+        {projectData
+          .map((project) => {
+            return (
+              <ProjectItem
+                key={project.id}
+                title={project.title}
+                desc={project.desc}
+                icon={project.icon}
+                link={project.link}
+                tech={project.tech}
+                image={project.image}
+                placeholder={project.placeholder}
+              />
+            );
+          })
+          .reverse()}
       </div>
     </section>
   );
-};
-
-export default Projects;
+}

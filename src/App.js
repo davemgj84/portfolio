@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
@@ -25,5 +25,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

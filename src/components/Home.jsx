@@ -7,7 +7,7 @@ import "../styles/Home.scss";
 import profile from "../assets/profile.jpg";
 import profileLow from "../assets/profileLow.jpg";
 
-const Home = () => {
+export default function Home() {
   return (
     <>
       <section className="home">
@@ -41,6 +41,4 @@ const Home = () => {
       </section>
     </>
   );
-};
-
-export default Home;
+}

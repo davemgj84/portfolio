@@ -2,7 +2,7 @@ import React from "react";
 
 import "../styles/Contact.scss";
 
-const Contact = () => {
+export default function Contact() {
   return (
     <>
       <section className="contacts">
@@ -54,6 +54,4 @@ const Contact = () => {
       </section>
     </>
   );
-};
-
-export default Contact;
+}

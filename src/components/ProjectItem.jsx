@@ -4,33 +4,33 @@ import React from "react";
 
 import "../styles/ProjectItem.scss";
 
-const ProjectItem = (props) => {
+export default function ProjectItem(props) {
+  const { desc, icon, image, link, placeholder, tech, title } = props;
+
   return (
     <>
       <div className="project-block">
         <div className="name-desc">
           <h2>
-            <a rel="noreferrer" target="_blank" href={props.link}>
-              <i className={props.icon}></i>
-              {props.title}
+            <a rel="noreferrer" target="_blank" href={link}>
+              <i className={icon}></i>
+              {title}
             </a>
           </h2>
           <ul>
-            <li>{props.desc}</li>
-            <li>Tech Stack: {props.tech}</li>
+            <li>{desc}</li>
+            <li>Tech Stack: {tech}</li>
           </ul>
         </div>
         <LazyLoadImage
           className="thumbnail"
-          alt={props.title}
-          src={props.image}
+          alt={title}
+          src={image}
           effect="blur"
-          placeholderSrc={props.placeholder}
+          placeholderSrc={placeholder}
         />
       </div>
       <hr className="divider" />
     </>
   );
-};
-
-export default ProjectItem;
+}

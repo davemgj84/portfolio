@@ -4,8 +4,9 @@ import React, { useState } from "react";
 import "../styles/Nav.scss";
 import NavItem from "./NavItem";
 
-const Nav = () => {
+export default function Nav() {
   const [navActive, setNavActive] = useState(false);
+
   const navItems = [
     {
       title: "Home",
@@ -25,16 +26,10 @@ const Nav = () => {
     },
   ];
 
-  const navLinks = navItems.map((nav, index) => {
-    return (
-      <NavItem
-        key={index}
-        title={nav.title}
-        link={nav.link}
-        setNavActive={setNavActive}
-      />
-    );
-  });
+  function handleNavigation() {
+    window.scrollTo(0, 0);
+    setNavActive(false);
+  }
 
   return (
     <>
@@ -48,7 +43,16 @@ const Nav = () => {
           </h4>
         </div>
         <ul className={navActive ? "nav-active nav-links" : "nav-links"}>
-          {navLinks}
+          {navItems.map((nav, index) => {
+            return (
+              <NavItem
+                key={index}
+                title={nav.title}
+                link={nav.link}
+                onHandleNavigation={handleNavigation}
+              />
+            );
+          })}
         </ul>
         <div
           onClick={() => setNavActive((prev) => !prev)}
@@ -61,6 +65,4 @@ const Nav = () => {
       </nav>
     </>
   );
-};
-
-export default Nav;
+}

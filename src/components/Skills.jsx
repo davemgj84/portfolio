@@ -2,7 +2,7 @@ import React from "react";
 
 import "../styles/Skills.scss";
 
-const Skills = () => {
+export default function Skills() {
   return (
     <>
       <div className="skills-container">
@@ -13,27 +13,28 @@ const Skills = () => {
             <h3 className="subtitle">Languages</h3>
             <ul>
               <li>
-                Javascript, Typescript, Python, Ruby, HTML, CSS, Bash, SQL, YAML
+                Javascript, Typescript, Python, HTML, CSS, SQL, YAML, Bash
               </li>
             </ul>
             <h3 className="subtitle">Frameworks/Libraries</h3>
             <ul>
               <li>
-                React, Node, React-Query, Redux, Marshmallow, Flask, Axios, MUI,
-                Emotion, Highcharts, AG-Grid, MapBox, Styled-Components, Phaser,
-                Ajax, jQuery, Bootstrap, Rails, Express, SASS, Google Analytics,
-                BitBucket, Sentry, GIT, Docker, Cron
+                React, React-Query, Redux, Node, Flask, Marshmallow, Axios,
+                Highcharts, AG-Grid, MapBox, SASS
               </li>
             </ul>
             <h3 className="subtitle">Testing</h3>
             <ul>
               <li>
-                React Testing Library, Jest, Storybook, Cypress, Mocha/Chai
+                React Testing Library, Jest, Cypress, Storybook, Mocha/Chai
               </li>
             </ul>
             <h3 className="subtitle">Systems/Databases</h3>
             <ul>
-              <li>AWS, CircleCI, MariaDB, PostgreSQL, SQL, SQLAlchemy</li>
+              <li>
+                AWS, CircleCI, Docker, MariaDB, PostgreSQL, SQL, SQLAlchemy,
+                Sentry, GIT, BitBucket
+              </li>
             </ul>
           </div>
           <hr className="h-divider" />
@@ -71,64 +72,111 @@ const Skills = () => {
             <h2>Experience</h2>
             <div className="experience-container">
               <div className="job">
-                <h3>Work</h3>
-                <h4>Clir Renewables Inc.</h4>
+                <h3>Clir Renewables Inc.</h3>
+                <h4>
+                  Intermediate Software Developer
+                  <br />
+                  January 2023 - January 2024
+                </h4>
                 <ul>
                   <li>
-                    Software Developer
-                    <ol>
-                      <li>Intermediate - January 2023 - January 2024</li>
-                      <li>Junior - May 2021 - January 2023</li>
-                    </ol>
+                    Optimized python web server APIs, reducing energy event data
+                    request wait times up to 75%
                   </li>
+                  <li>
+                    Utilized React Query to enhance CRUD operations on RESTful
+                    APIs, improving data interactions and optimizing state
+                    management for better application performance
+                  </li>
+                  <li>
+                    Maintained and monitored nightly end-to-end testing,
+                    achieving a noteworthy milestone by establishing a 160-day
+                    consecutive passing streak — a company record
+                  </li>
+                  <li>
+                    Maintained and monitored nightly end-to-end testing,
+                    achieving a noteworthy milestone by establishing a 160-day
+                    consecutive passing streak — a company record
+                  </li>
+                  <li>
+                    Overhauled app-wide navigation to align precisely with
+                    design team specifications, creating intuitive and
+                    captivating user interfaces that elevate the overall
+                    experience for customers
+                  </li>
+                  <li>
+                    Engaged in collaborative sessions to conceptualize, plan,
+                    and construct new features. Worked closely with team members
+                    and product managers to identify user needs and align
+                    development goals
+                  </li>
+                  <li>
+                    Facilitated effective code review practices, upheld
+                    high-quality version control, and engaged in impactful pair
+                    programming to elevate code quality and foster collaborative
+                    development
+                  </li>
+                  <li>
+                    Mentored developers and co-ops in planning, designing, and
+                    accomplishing projects and goals
+                  </li>
+                </ul>
 
+                <h4 style={{ marginTop: "2rem" }}>
+                  Junior Software Developer
+                  <br />
+                  May 2021 - January 2023
+                </h4>
+
+                <ul>
                   <li>
-                    Contributed to the creation of renewable energy optimization
-                    and reporting software for wind and solar farms
+                    Integrated Google Analytics to track and interpret user
+                    engagement metrics on newly developed features, enabling
+                    data-driven decisions to improve the overall user experience
                   </li>
-                  <li>Typescript/React Front-end</li>
-                  <li>Python Webserver</li>
-                  <li>React Testing Library and Cypress</li>
-                  <li>Continuous Deployment via CircleCI and AWS</li>
                   <li>
-                    Maintained and improved the performance of existing software
+                    Oversaw the smooth transition of critical dependency
+                    updates, including the migration from MUI 4 to MUI 5,
+                    contributing to a notable improvement in the application's
                     functionality
                   </li>
                   <li>
-                    Designed, developed, implemented and tested new full-stack
-                    software features
+                    Regularly performed firefighting duties, swiftly addressing
+                    unforeseen issues and bugs to ensure continuous system
+                    stability
                   </li>
                   <li>
-                    Worked closely with colleagues to help meet the team’s
-                    objectives and goals
+                    Worked together to create company-wide Diversity & Inclusion
+                    surveys as an engaged committee member, gathering crucial
+                    insights to shape and implement impactful programs
                   </li>
                   <li>
-                    Recommended and implemented improvements to existing
-                    software programs and processes
+                    Collaborated with the Sustainability Committee, achieving a
+                    reduction in waste from office lunch takeouts
                   </li>
-                  <li>
-                    Mentored and supported developers within the team and across
-                    the department
-                  </li>
-                  <li>Diversity & Inclusion Committee member</li>
-                  <li> Sustainability Committee member</li>
                 </ul>
               </div>
               <div className="job">
-                <h3>Work</h3>
-                <h4>The Soma Gallery</h4>
+                <h3>The Soma Gallery</h3>
+                <h4>
+                  Assistant Manager
+                  <br />
+                  April 2014 - March 2020
+                </h4>
                 <ul>
-                  <li>Assistant Manager - April 2014 - March 2020</li>
                   <li>Sales of art, literature and antiquities</li>
                   <li>Trained and supervised staff</li>
                   <li>Managed inventory & payroll</li>
                 </ul>
               </div>
               <div className="job">
-                <h3>Volunteer</h3>
-                <h4>Greater Vancouver Interactive Arts Society</h4>
+                <h3>Greater Vancouver Interactive Arts Society</h3>
+                <h4>
+                  Grants Committee Member Volunteer
+                  <br />
+                  August 2014 - August 2016
+                </h4>
                 <ul>
-                  <li>Grants Committee Member - August 2014 - August 2016</li>
                   <li>Collaborated with committee to award art grants</li>
                   <li>Helped artists to fulfil grant requirements</li>
                 </ul>
@@ -139,6 +187,4 @@ const Skills = () => {
       </div>
     </>
   );
-};
-
-export default Skills;
+}

@@ -1,20 +1,20 @@
 import { NavLink } from "react-router-dom";
 
-const NavItem = (props) => {
+export default function NavItem(props) {
+  const { link, onHandleNavigation, title } = props;
+
   return (
     <li>
       <NavLink
-        activeStyle={{
-          backgroundColor: "rgba(92, 111, 133, 0.7)",
-          color: "#ffffff",
-        }}
-        onClick={() => props.setNavActive(false)}
-        to={props.link}
+        style={({ isActive }) => ({
+          backgroundColor: isActive ? "rgba(92, 111, 133, 0.7)" : "",
+          color: isActive ? "#ffffff" : "#d9dcdf",
+        })}
+        onClick={onHandleNavigation}
+        to={link}
       >
-        {props.title}
+        {title}
       </NavLink>
     </li>
   );
-};
-
-export default NavItem;
+}
