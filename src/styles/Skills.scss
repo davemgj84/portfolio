@@ -5,7 +5,6 @@
   animation: fadeIn 1s;
   transition: ease-in-out 0.3s;
   padding-top: 90px;
-
   .skills {
     width: 100%;
     height: 100%;
@@ -14,21 +13,18 @@
     align-items: center;
     transition: ease-in-out 0.3s;
     margin-top: 2rem;
-
     h2 {
       font-size: 38px;
       letter-spacing: 2px;
       color: #304149;
       margin-bottom: 2rem;
     }
-
     .main {
       align-self: center;
       color: #44545b;
       font-size: 27px;
       margin-bottom: 1rem;
     }
-
     .secondary {
       align-self: center;
       color: #44545b;
@@ -36,14 +32,12 @@
       margin-top: 2rem;
       margin-bottom: 1rem;
     }
-
     .subtitle {
       color: #44545b;
       font-size: 24px;
       align-self: flex-start;
       margin-top: 1rem;
     }
-
     li {
       font-family: "Source Sans Pro", sans-serif;
       font-size: 18px;
@@ -56,7 +50,6 @@
       margin-left: 1.25rem;
     }
   }
-
   .education-experience {
     width: 100%;
     height: 100%;
@@ -65,7 +58,6 @@
     align-items: center;
     margin-top: 2rem;
   }
-
   .h-divider {
     width: 70%;
     height: 1px;
@@ -75,28 +67,23 @@
     border-width: 0;
     border-style: none;
   }
-
   .education {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     .education-container {
       display: flex;
       flex-direction: column;
     }
-
     div {
       width: 780px;
     }
-
     h2 {
       font-size: 38px;
       letter-spacing: 2px;
       color: #304149;
     }
-
     .school {
       align-self: center;
       color: #44545b;
@@ -104,7 +91,6 @@
       margin-top: 2rem;
       margin-bottom: 1rem;
     }
-
     .credentials {
       font-family: "Source Sans Pro", sans-serif;
       line-height: 20px;
@@ -113,7 +99,6 @@
       font-size: 20px;
       margin-bottom: 0.5rem;
     }
-
     .date {
       font-family: "Source Sans Pro", sans-serif;
       color: #59666d;
@@ -121,27 +106,23 @@
       font-weight: normal;
     }
   }
-
   .experience {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     h2 {
       font-size: 38px;
       letter-spacing: 2px;
       color: #304149;
       margin-top: 2rem;
     }
-
     .experience-container {
       display: flex;
       flex-direction: column;
       margin-bottom: 2rem;
       width: 100%;
     }
-
     .job {
       display: flex;
       flex-direction: column;
@@ -149,14 +130,12 @@
       margin: 2rem;
       margin-top: 0;
     }
-
     h3 {
       margin-top: 2rem;
       margin-bottom: 1rem;
       color: #44545b;
       font-size: 27px;
     }
-
     h4 {
       font-family: "Source Sans Pro", sans-serif;
       font-weight: normal;
@@ -164,7 +143,6 @@
       font-size: 20px;
       line-height: 32px;
     }
-
     li {
       width: 760px;
       font-family: "Source Sans Pro", sans-serif;
@@ -198,18 +176,15 @@
         width: 510px;
       }
     }
-
     .education-experience {
       height: 100%;
     }
-
     .education {
       height: 50%;
       div {
         width: 530px;
       }
     }
-
     .experience {
       height: 50%;
       li {
@@ -223,65 +198,52 @@
   .skills-container {
     .skills {
       height: 100%;
-
       h2 {
         font-size: 32px;
       }
-
       .main {
         font-size: 24px;
         margin-top: 0;
       }
-
       .secondary {
         font-size: 24px;
       }
-
       .subtitle {
         font-size: 18px;
       }
-
       li {
         font-size: 16px;
         width: 400px;
       }
     }
-
     .education {
       height: 100%;
-
       div {
         width: 420px;
       }
       h2 {
         font-size: 32px;
       }
-
       .school {
         font-size: 24px;
       }
-
       .credentials {
         margin-bottom: 0.25rem;
         font-size: 18px;
       }
-
       .date {
         font-size: 16px;
       }
     }
-
     .education-experience {
       height: 100%;
     }
-
     .experience {
       height: 100%;
       .experience-container {
         margin-bottom: 4rem;
         margin-top: 0;
       }
-
       h2 {
         font-size: 32px;
       }
@@ -300,42 +262,49 @@
 }
 
 @media screen and (max-width: 420px) {
-  .skills-container .skills li {
-    width: 290px;
-  }
-  .skills-container .experience h4 {
-    font-size: 16px;
-  }
-  .skills-container .experience li {
-    width: 290px;
-  }
-  .skills-container .education div {
-    width: 290px;
+  .skills-container {
+    .skills li {
+      width: 290px;
+    }
+    .experience {
+      h4 {
+        font-size: 16px;
+      }
+      li {
+        width: 290px;
+      }
+    }
+    .education div {
+      width: 290px;
+    }
   }
 }
 
 @media screen and (max-width: 320px) {
-  .skills-container .skills h2 {
-    font-size: 30px;
-  }
-
-  .skills-container .skills li {
-    width: 230px;
-  }
-
-  .skills-container .experience li {
-    width: 230px;
-  }
-
-  .skills-container .education h2 {
-    font-size: 30px;
-  }
-
-  .skills-container .education div {
-    width: 230px;
-  }
-
-  .skills-container .experience h2 {
-    font-size: 30px;
+  .skills-container {
+    .skills {
+      h2 {
+        font-size: 30px;
+      }
+      li {
+        width: 230px;
+      }
+    }
+    .experience {
+      li {
+        width: 230px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .education {
+      h2 {
+        font-size: 30px;
+      }
+      div {
+        width: 230px;
+      }
+    }
   }
 }
