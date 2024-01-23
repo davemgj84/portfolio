@@ -94,11 +94,6 @@ export default function Skills() {
                     consecutive passing streak — a company record
                   </li>
                   <li>
-                    Maintained and monitored nightly end-to-end testing,
-                    achieving a noteworthy milestone by establishing a 160-day
-                    consecutive passing streak — a company record
-                  </li>
-                  <li>
                     Overhauled app-wide navigation to align precisely with
                     design team specifications, creating intuitive and
                     captivating user interfaces that elevate the overall
