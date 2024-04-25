@@ -72,6 +72,20 @@ export default function Skills() {
             <h2>Experience</h2>
             <div className="experience-container">
               <div className="job">
+                <h3>Zapier</h3>
+                <h4>
+                  Full Stack Engineer
+                  <br />
+                  April 2024 - Present
+                </h4>
+                <ul>
+                  <li>
+                    Currently working on the Revenue Growth team to help create
+                    software that makes automation work for everyone!
+                  </li>
+                </ul>
+              </div>
+              <div className="job">
                 <h3>Clir Renewables Inc.</h3>
                 <h4>
                   Intermediate Software Developer
